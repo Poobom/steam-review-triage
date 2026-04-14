@@ -84,45 +84,55 @@ def test_paraphrase_clustering():
 
 
 def test_paraphrased_spam_detection():
-    """Paraphrased spam should still be flagged (semantic, not keyword)."""
-    embeddings, _ = load_embeddings(OUT)  # load only to confirm cache present
+    """Inject paraphrased spam into the real 4982-row dataset and check detect_spam catches them."""
+    import pandas as pd
+
+    from src.clean import load_clean_artifact
+    from src.spam import detect_spam
+
     cost = CostTracker()
+    df_orig, _ = load_clean_artifact(OUT)
+    embeddings_orig, _ = load_embeddings(OUT)
 
     paraphrased_spam = [
         "체이크한 CS 스킨을 매우 싸게 판매합니다, 메시지 주세요",
-        "공짜 V-bucks 제너레이터 클릭하세요, 한정 기간",
-        "아이템 거래 디스코드 fake999 최저가",
-        "내 프로필 방문하면 게임 키 무료 증정",
-        "이 게임 후원받고 작성한 광고 리뷰입니다 NordVPN 추천",
+        "공짜 V-bucks 제너레이터 클릭하세요, 한정 기간 이벤트",
+        "아이템 거래 디스코드 fake999 최저가 신뢰가능",
+        "내 프로필 방문하면 게임 키 무료 증정 이벤트 진행 중",
+        "이 게임 후원받고 작성한 광고 리뷰입니다 VPN 서비스 추천",
     ]
-    legit = [
-        "이 게임 진짜 재밌어요. 강력 추천합니다.",
-        "스토리와 캐릭터가 좋았다.",
-        "그래픽이 매우 좋다",
-    ]
+    paraphrased_emb = embed_texts(paraphrased_spam, cost, step="paraphrase_test")
 
-    pos_emb = embed_texts(POSITIVE_PROTOTYPES, cost, step="paraphrase_test")
-    neg_emb = embed_texts(NEGATIVE_PROTOTYPES, cost, step="paraphrase_test")
-    test_emb = embed_texts(paraphrased_spam + legit, cost, step="paraphrase_test")
+    inject_df = pd.DataFrame(
+        {
+            "review_id": list(range(900001, 900001 + len(paraphrased_spam))),
+            "text": paraphrased_spam,
+            "lang": ["koreana"] * len(paraphrased_spam),
+            "recommended": [True] * len(paraphrased_spam),
+            "playtime_hours": [0.0] * len(paraphrased_spam),
+            "posted_at": [""] * len(paraphrased_spam),
+        }
+    )
+    df_combined = pd.concat([df_orig, inject_df], ignore_index=True)
+    emb_combined = np.vstack([embeddings_orig, paraphrased_emb])
 
-    sim_pos = cosine_similarity_matrix(test_emb, pos_emb).max(axis=1)
-    sim_neg = cosine_similarity_matrix(test_emb, neg_emb).max(axis=1)
-    diff = sim_pos - sim_neg
+    flags, stats = detect_spam(df_combined, emb_combined, cost)
 
-    print("\n=== SPAM PARAPHRASE DETECTION TEST ===")
-    threshold_pos = 0.40
-    threshold_diff = 0.05
-    for text, sp, sn, d in zip(paraphrased_spam + legit, sim_pos, sim_neg, diff):
-        is_spam = (sp >= threshold_pos) and (d >= threshold_diff)
-        has_url = bool(URL_PATTERN.search(text))
-        if has_url:
-            is_spam = True
-        label = "SPAM" if is_spam else "LEGIT"
-        expected = "SPAM" if text in paraphrased_spam else "LEGIT"
-        flag = "✓" if label == expected else "✗"
-        print(f"{flag} [{label} (expected {expected})] sim_pos={sp:.3f} sim_neg={sn:.3f} diff={d:.3f} :: {text}")
+    print("\n=== SPAM PARAPHRASE DETECTION TEST (injected into real dataset) ===")
+    print(f"Threshold (auto-tuned on 5000+ rows): pos>={stats.threshold_pos:.3f}, diff>={stats.threshold_diff:.3f}")
+    print(f"Total flagged spam: {stats.spam_count} / {stats.total} ({stats.spam_ratio*100:.2f}%)")
 
-    print(f"\nCost for this test: ${cost.total:.6f}")
+    correct = 0
+    inject_ids = set(inject_df["review_id"].tolist())
+    inject_flags = flags[flags["review_id"].isin(inject_ids)]
+    for text, row in zip(paraphrased_spam, inject_flags.itertuples()):
+        actual = "SPAM" if row.is_spam else "LEGIT"
+        flag = "✓" if actual == "SPAM" else "✗"
+        if actual == "SPAM":
+            correct += 1
+        print(f"{flag} [{actual}] sim_pos={row.sim_pos:.3f} sim_neg={row.sim_neg:.3f} score={row.spam_score:.3f} :: {text[:60]}")
+    print(f"\nDetection rate on injected paraphrases: {correct}/{len(paraphrased_spam)}")
+    print(f"Cost for this test: ${cost.total:.6f}")
 
 
 if __name__ == "__main__":
