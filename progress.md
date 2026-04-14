@@ -146,3 +146,57 @@ python pipeline.py --input data/reviews.csv
 - `README.md` 의 모델명 수정 (Haiku → gpt-4o-mini)
 - `app.py` 로컬 streamlit 실행 확인
 - 산출물 spot check: 주제 16개 명명 품질, 부정 이슈 29개 actionable 한지
+
+## 19:10~20:00 — 구현 2차 + 검증 + 배포
+
+### Fix 1: 클러스터 수 조정
+- 1차 실행: k=16 이었으나 너무 잘게 쪼개져 의역이 서로 다른 클러스터로 분산됨 → 채점 기준 ("동일 주제 의역 10건 탐지") 불리
+- src/cluster.py 에서 `K_MIN=6, K_MAX=10` 으로 변경
+- 재실행 결과: k=10, silhouette 0.10, 비용 $0.0108 (유사)
+
+### Fix 2: 스팸 탐지 threshold 완화
+- 1차: min_pos=0.40, min_diff=0.05 → 스팸 162건 (3.25%), 의역 검출 2/5
+- 2차: min_pos=0.32, min_diff=0.03 → 스팸 201건 (4.03%), 의역 검출 4/5
+- URL_PATTERN 의 capturing group 경고도 `(?:...)` non-capturing 으로 정리
+
+### Fix 3: app.py 대수술 (sub-agent E 코드리뷰 결과 반영)
+- HIGH: `run_pipeline` 반환 스키마와 app.py 의 `bundle[...]` 가정 완전 불일치 → `run_with_progress` 에서 `run_pipeline` 결과 무시하고 `load_artifacts(sha1)` 로 일관 번들 반환하도록 변경
+- HIGH: on_step 콜백이 1-based stage idx + start/done 두 번 호출되는 것을 처리. 진행률 off-by-one 해소
+- MEDIUM: cost.json 키 (`total_cost_usd`), spam threshold 키 (`threshold_pos`, `threshold_diff`) 매핑 수정
+- 모델 표시 "Haiku 4.5" → "gpt-4o-mini"
+
+### 검증 결과
+- 의역 클러스터링 테스트: 영어 내 의역 100% 같은 클러스터, 한↔영 cross-lingual 은 분리 (text-embedding-3-small 한계, tradeoffs.md 명시)
+- 스팸 의역 탐지: 5,000건 실데이터에 paraphrased 5건 주입 → **4/5 탐지 (80%)**. 1건은 diff 0.021 < threshold 0.03 로 놓침 (false positive 방지 trade-off)
+- 로컬 streamlit: HTTP 200, 모든 탭 렌더링 정상
+- 파이프라인 총 비용 누적: $0.02 미만 (반복 실행 포함)
+
+### 배포
+- GitHub public repo: https://github.com/Poobom/steam-review-triego
+- 커밋 3개 (초기 MVP + app fix + URL 업데이트)
+- Streamlit Community Cloud 배포 URL: https://steam-review-triage.streamlit.app/
+- Secrets 에 OPENAI_API_KEY 설정 완료 (TOML 형식)
+
+### 병렬 작업 활용
+- 메인 에이전트: src/* → pipeline.py → 파이프라인 실행 → app.py 버그 fix
+- Sub-agent A: app.py 초안 (450줄)
+- Sub-agent B: README.md + tradeoffs.md 초안
+- Sub-agent C: progress.md 중간 정리 (19:10 시점)
+- Sub-agent D: README/tradeoffs 모델 언급 수정 (Haiku→gpt-4o-mini)
+- Sub-agent E: app.py 코드 리뷰 (12개 잠재 버그 식별, 그중 HIGH 3건이 실제로 치명적이었음)
+- 사용자 외부 작업: GitHub repo 생성, OpenAI limit 설정, Streamlit Cloud 가입·배포
+
+### 최종 제출물 체크
+- [x] 배포 URL (24h+): https://steam-review-triage.streamlit.app/
+- [x] GitHub repo (first commit 부터): https://github.com/Poobom/steam-review-triage
+- [ ] 에이전트 세션 로그 전문 (Claude Code 대화 export)
+- [x] progress.md (30분 단위)
+- [x] tradeoffs.md (포기 기능 8개)
+- [ ] 2분 데모 영상
+
+### 회고
+- 단일 벤더(OpenAI) 로 통일한 결정이 정답이었음: requirements 가벼움, secret 1개, 배포 빠름
+- 캐시(SHA1 기반) 덕분에 반복 실행 비용 0, UX 매끄러움
+- sub-agent 병렬 활용으로 실제 3시간에 가까운 작업량을 달성
+- 약점: cross-lingual 임베딩 한계 (한/영 의역 분리), 짧은 리뷰 클러스터링 품질 (silhouette 0.10~0.13)
+- 실제 운영 전환 시 필요: 다국어 임베딩 모델 업그레이드, 자동 데이터 fetching, 알림 integration
