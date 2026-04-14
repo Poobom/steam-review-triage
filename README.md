@@ -18,9 +18,11 @@ CX팀 김지원 매니저님(비개발자·크롬 브라우저만 사용)을 위
 
 ## 배포 URL
 
-**[배포 후 업데이트]**
+**👉 https://steam-review-triage.streamlit.app/**
 
-> Streamlit Community Cloud 에 public repo 로 배포됩니다. 첫 방문 시 `reviews.csv` 기본 분석 결과가 즉시 표시되며(precomputed artifacts), 분석 시작 버튼을 누르면 캐시 hit 으로 약 5초 만에 6단계 파이프라인이 replay 됩니다.
+> Streamlit Community Cloud 에 public repo 로 배포되어 있습니다. 첫 방문 시 `reviews.csv` 기본 분석 결과가 즉시 표시되며(precomputed artifacts 자동 로드), 분석 시작 버튼을 누르면 캐시 hit 으로 약 5초 만에 6단계 파이프라인이 replay 됩니다. 다른 CSV 업로드 시에는 실제 LLM 파이프라인이 돌며 약 3분 소요.
+>
+> 7일 연속 무접속 시 sleep 상태가 되어 첫 접속자가 ~30초 대기로 깨웁니다.
 
 ---
 
