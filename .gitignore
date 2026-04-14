@@ -1,0 +1,11 @@
+kaggle.json
+.env
+*.csv
+!data/reviews.csv
+*.zip
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.tmp_uploads/

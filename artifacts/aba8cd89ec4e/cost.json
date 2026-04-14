@@ -1,0 +1,339 @@
+{
+  "total_cost_usd": 0.010778,
+  "by_step": {
+    "embedding": {
+      "calls": 20,
+      "tokens_in": 237542,
+      "tokens_out": 0,
+      "cost": 0.004750839999999999,
+      "model": "text-embedding-3-small"
+    },
+    "embedding_prototypes": {
+      "calls": 2,
+      "tokens_in": 303,
+      "tokens_out": 0,
+      "cost": 6.06e-06,
+      "model": "text-embedding-3-small"
+    },
+    "cluster_naming": {
+      "calls": 10,
+      "tokens_in": 8663,
+      "tokens_out": 2099,
+      "cost": 0.0025588499999999997,
+      "model": "gpt-4o-mini"
+    },
+    "negative_reasons": {
+      "calls": 6,
+      "tokens_in": 9444,
+      "tokens_out": 3410,
+      "cost": 0.0034626,
+      "model": "gpt-4o-mini"
+    }
+  },
+  "records": [
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 12769,
+      "tokens_out": 0,
+      "cost": 0.00025538,
+      "timestamp": "2026-04-14T10:15:22Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 13530,
+      "tokens_out": 0,
+      "cost": 0.0002706,
+      "timestamp": "2026-04-14T10:15:23Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 9187,
+      "tokens_out": 0,
+      "cost": 0.00018374,
+      "timestamp": "2026-04-14T10:15:25Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 10509,
+      "tokens_out": 0,
+      "cost": 0.00021018,
+      "timestamp": "2026-04-14T10:15:26Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 11353,
+      "tokens_out": 0,
+      "cost": 0.00022706,
+      "timestamp": "2026-04-14T10:15:27Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 9895,
+      "tokens_out": 0,
+      "cost": 0.0001979,
+      "timestamp": "2026-04-14T10:15:28Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 7942,
+      "tokens_out": 0,
+      "cost": 0.00015884,
+      "timestamp": "2026-04-14T10:15:29Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 10779,
+      "tokens_out": 0,
+      "cost": 0.00021558000000000002,
+      "timestamp": "2026-04-14T10:15:30Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 12498,
+      "tokens_out": 0,
+      "cost": 0.00024996,
+      "timestamp": "2026-04-14T10:15:31Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 15210,
+      "tokens_out": 0,
+      "cost": 0.00030419999999999997,
+      "timestamp": "2026-04-14T10:15:33Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 13448,
+      "tokens_out": 0,
+      "cost": 0.00026896,
+      "timestamp": "2026-04-14T10:15:34Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 14192,
+      "tokens_out": 0,
+      "cost": 0.00028384000000000005,
+      "timestamp": "2026-04-14T10:15:35Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 11693,
+      "tokens_out": 0,
+      "cost": 0.00023386000000000001,
+      "timestamp": "2026-04-14T10:15:36Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 13820,
+      "tokens_out": 0,
+      "cost": 0.00027640000000000005,
+      "timestamp": "2026-04-14T10:15:37Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 8631,
+      "tokens_out": 0,
+      "cost": 0.00017262,
+      "timestamp": "2026-04-14T10:15:38Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 11486,
+      "tokens_out": 0,
+      "cost": 0.00022972,
+      "timestamp": "2026-04-14T10:15:40Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 15926,
+      "tokens_out": 0,
+      "cost": 0.00031852,
+      "timestamp": "2026-04-14T10:15:41Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 16978,
+      "tokens_out": 0,
+      "cost": 0.00033956,
+      "timestamp": "2026-04-14T10:15:42Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 13614,
+      "tokens_out": 0,
+      "cost": 0.00027228,
+      "timestamp": "2026-04-14T10:15:44Z"
+    },
+    {
+      "step": "embedding",
+      "model": "text-embedding-3-small",
+      "tokens_in": 4082,
+      "tokens_out": 0,
+      "cost": 8.164e-05,
+      "timestamp": "2026-04-14T10:15:45Z"
+    },
+    {
+      "step": "embedding_prototypes",
+      "model": "text-embedding-3-small",
+      "tokens_in": 192,
+      "tokens_out": 0,
+      "cost": 3.84e-06,
+      "timestamp": "2026-04-14T10:15:55Z"
+    },
+    {
+      "step": "embedding_prototypes",
+      "model": "text-embedding-3-small",
+      "tokens_in": 111,
+      "tokens_out": 0,
+      "cost": 2.2200000000000003e-06,
+      "timestamp": "2026-04-14T10:15:56Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 612,
+      "tokens_out": 210,
+      "cost": 0.0002178,
+      "timestamp": "2026-04-14T10:16:04Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 1142,
+      "tokens_out": 218,
+      "cost": 0.00030209999999999997,
+      "timestamp": "2026-04-14T10:16:09Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 478,
+      "tokens_out": 192,
+      "cost": 0.0001869,
+      "timestamp": "2026-04-14T10:16:13Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 1298,
+      "tokens_out": 256,
+      "cost": 0.00034829999999999996,
+      "timestamp": "2026-04-14T10:16:20Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 546,
+      "tokens_out": 209,
+      "cost": 0.00020729999999999997,
+      "timestamp": "2026-04-14T10:16:25Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 522,
+      "tokens_out": 177,
+      "cost": 0.0001845,
+      "timestamp": "2026-04-14T10:16:29Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 1956,
+      "tokens_out": 269,
+      "cost": 0.00045479999999999994,
+      "timestamp": "2026-04-14T10:16:35Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 467,
+      "tokens_out": 178,
+      "cost": 0.00017685,
+      "timestamp": "2026-04-14T10:16:39Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 1160,
+      "tokens_out": 192,
+      "cost": 0.0002892,
+      "timestamp": "2026-04-14T10:16:43Z"
+    },
+    {
+      "step": "cluster_naming",
+      "model": "gpt-4o-mini",
+      "tokens_in": 482,
+      "tokens_out": 198,
+      "cost": 0.00019109999999999998,
+      "timestamp": "2026-04-14T10:16:48Z"
+    },
+    {
+      "step": "negative_reasons",
+      "model": "gpt-4o-mini",
+      "tokens_in": 1393,
+      "tokens_out": 562,
+      "cost": 0.00054615,
+      "timestamp": "2026-04-14T10:17:03Z"
+    },
+    {
+      "step": "negative_reasons",
+      "model": "gpt-4o-mini",
+      "tokens_in": 1795,
+      "tokens_out": 758,
+      "cost": 0.00072405,
+      "timestamp": "2026-04-14T10:17:21Z"
+    },
+    {
+      "step": "negative_reasons",
+      "model": "gpt-4o-mini",
+      "tokens_in": 2113,
+      "tokens_out": 743,
+      "cost": 0.00076275,
+      "timestamp": "2026-04-14T10:17:38Z"
+    },
+    {
+      "step": "negative_reasons",
+      "model": "gpt-4o-mini",
+      "tokens_in": 2850,
+      "tokens_out": 742,
+      "cost": 0.0008727,
+      "timestamp": "2026-04-14T10:17:50Z"
+    },
+    {
+      "step": "negative_reasons",
+      "model": "gpt-4o-mini",
+      "tokens_in": 432,
+      "tokens_out": 7,
+      "cost": 6.9e-05,
+      "timestamp": "2026-04-14T10:17:51Z"
+    },
+    {
+      "step": "negative_reasons",
+      "model": "gpt-4o-mini",
+      "tokens_in": 861,
+      "tokens_out": 598,
+      "cost": 0.00048795000000000007,
+      "timestamp": "2026-04-14T10:18:03Z"
+    }
+  ]
+}

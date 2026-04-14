@@ -1,0 +1,557 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "topic": "갓겜 추천",
+      "topic_en": "God Game Recommendation",
+      "negative_review_count": 39,
+      "issues": [
+        {
+          "title": "조작감 문제",
+          "title_en": "Control issues",
+          "description": "많은 사용자들이 조작감이 구리다고 언급하며, 게임 플레이에 큰 스트레스를 느끼고 있습니다. 특히, 조작이 느리고 답답하다는 의견이 많습니다. 이 문제는 다양한 플랫폼에서 발생하고 있습니다.",
+          "description_en": "Many users have mentioned that the control feels bad, causing significant stress during gameplay. There are numerous comments about the controls being slow and frustrating. This issue appears to occur across various platforms.",
+          "severity": "major",
+          "frequency": 8,
+          "representative_quotes": [
+            {
+              "review_id": 81485205,
+              "text": "-/10\n\n진짜 패드 10년 가까이 잡았는데 이보다 조작감 최악인 겜은 못 본 것 같다.\n사고나서 했다가 접었다가 4트째 하고있는데, 스토리고 뭐고 여전히 개 ㅈ같은 조작감때메 스트레스 존나받아서 못해먹겠음\n\n레데리는 묵직함이 있고(조작감이 구리다고 표현하기는 힘듦), 다크소울이나 세키로는 즉각반응이 있는데 이건 이도저도 아닌데 줫나 굼뜨고 답답함. 군대 폐급 후임 보는거보다 더 답답해서 미치겠음 그냥\n\n조작감 뿐만 아니라 폰트도 가독성 최악이고 위쳐센스 켜면 ㄹㅇ 하나도 안 보이는데 뭘 보라는건지 모르겠음. 3D멀미 진짜 1도 없는데 위쳐센스 켜면 화면 보기가 싫어진다\n근데 이건 다행히 모드로 해결 가능하지만 조작감은 줍기부터 전투, 말타기까지 여러모로 개최악.\n\n스토리겜이라 백번 양보한다 해도 스토리 보기까지의 과정이 어느 정도껏이어야지.\n솔직히 왜이렇게 빨아제끼는지 이해 안 됨. 이번에 엑박 시리즈X패드 새로 샀는데 하다가 던질뻔"
+            },
+            {
+              "review_id": 83255411,
+              "text": "ㅅㅂ 조작감 ㅈ같아서 못해먹겠네"
+            },
+            {
+              "review_id": 76922177,
+              "text": "음.. 제가 다잉라이트 파쿠르 겜을 하다 넘어와서 그런지... 움직임이 너무 답답합니다ㅠㅠ 공격하는거나 점프하는거 등이 너무 어색하고 답답해서 플레이하는게 너무 답답.. 시선 넘어가는 것도 매끄럽게 넘어가지 않아서 그저 답답쓰.. 우리 주인공 목소리가 너무 매력적이라 플레이는 하겠지만.... 그저 아쉽네요ㅠㅠㅠㅠ 인물 생긴거는 정말 예쁘고 좋은데 ㅜㅠㅠ"
+            }
+          ]
+        },
+        {
+          "title": "게임의 재미 부족",
+          "title_en": "Lack of fun",
+          "description": "여러 리뷰어들이 게임이 지루하고 재미가 없다고 느끼고 있습니다. 특히, 스토리와 전투가 루즈하다는 의견이 많습니다.",
+          "description_en": "Several reviewers feel that the game is boring and lacks fun. There are many comments about the story and combat being too slow-paced.",
+          "severity": "major",
+          "frequency": 6,
+          "representative_quotes": [
+            {
+              "review_id": 76791925,
+              "text": "진짜 명작이라해서 계속 해보려고는 했는데 너무 재미가 없어요... 진행도 루즈하고 전투는 하품나오고 대사많은겜 싫어하는건 아니지만 이건 진짜 재미가 너어어어어어ㅓ어무 없네요"
+            },
+            {
+              "review_id": 81411536,
+              "text": "저에게는 너무 지루해요 ㅜㅜ..."
+            },
+            {
+              "review_id": 84340322,
+              "text": "나만 존나 재미없냐?"
+            }
+          ]
+        },
+        {
+          "title": "업데이트 문제",
+          "title_en": "Update issues",
+          "description": "업데이트 중에 데이터 이어서 플레이할 수 없다는 불만이 제기되었습니다. 이로 인해 사용자들이 게임을 진행할 수 없게 되는 상황이 발생했습니다.",
+          "description_en": "Complaints have been raised about being unable to continue playing due to an update that prevents data continuation. This has led to situations where users cannot progress in the game.",
+          "severity": "critical",
+          "frequency": 1,
+          "representative_quotes": [
+            {
+              "review_id": 75957603,
+              "text": "플레이하려고 켯더니 업뎃중이라서 음 업뎃하나보다 했더니 뭔 업뎃을 했길래 데이터를 이어서 할수없다고 뜨는거지? 진짜 개빡친다 이제 시리 구할수있나 라고 생각했더니 훅 날아가버리네 진짜 너무 굉장해"
+            }
+          ]
+        },
+        {
+          "title": "비주얼 불만",
+          "title_en": "Visual complaints",
+          "description": "몬스터 비주얼이 역겹다는 의견이 있으며, 이로 인해 게임을 하기 싫다는 사용자들이 있습니다. 비주얼 개선이 필요하다는 요구가 있습니다.",
+          "description_en": "There are opinions that the monster visuals are disgusting, leading some users to not want to play the game. There is a demand for visual improvements.",
+          "severity": "minor",
+          "frequency": 1,
+          "representative_quotes": [
+            {
+              "review_id": 74978651,
+              "text": "몬스터비주얼이 너무 역겨워서 하기싫음\n좀만 멋있게 만들어주지"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "topic": "스토리와 몰입감",
+      "topic_en": "Story and Immersion",
+      "negative_review_count": 41,
+      "issues": [
+        {
+          "title": "전투 시스템의 문제",
+          "title_en": "Issues with combat system",
+          "description": "전투 시스템이 지루하고 재미없다는 불만이 많습니다. 특히, 반복적인 전투 메커니즘과 불편한 조작감이 문제로 지적되었습니다. 여러 리뷰에서 전투가 재미없고 단조롭다는 의견이 있었습니다.",
+          "description_en": "Many complaints highlight that the combat system is boring and unfun. The repetitive combat mechanics and uncomfortable controls are frequently pointed out as issues. Several reviews mention that the combat lacks excitement and variety.",
+          "severity": "major",
+          "frequency": 10,
+          "representative_quotes": [
+            {
+              "review_id": 84734247,
+              "text": "After 5 years of listening to nothing but praises for this game, i finally give this game a try and i was completely confuse. Everything surround the story is a complete mix bag. CDPR seems to have lock themselves in a dungoen with no access to the outside world because this game has a lot of outdated feature even for a 2015 game. And my experience was filled with annoying and sometimes game breaking bugs. The story, the characters and the world is worth the praise but the gameplay just made me wish i could play older games that did what this game did but better."
+            },
+            {
+              "review_id": 83790482,
+              "text": "Very boring combat, dull mechanic, really dont get me into the game it self.. For a 2015 GOTY it's really way too far behind for example Skyrim in terms of being fun... You get to swing you sword mindlessly and ALT dodge for a god mode... Story is amazing tho"
+            },
+            {
+              "review_id": 84986836,
+              "text": "IDK why people like this game, the combat and healing mechanics are dreadful and not fun in the slightest."
+            }
+          ]
+        },
+        {
+          "title": "스토리의 반복성",
+          "title_en": "Repetitiveness of the story",
+          "description": "주요 퀘스트가 반복적이라는 불만이 있습니다. 많은 리뷰어들이 스토리가 흥미롭지 않고, 같은 유형의 퀘스트를 반복하는 것에 지루함을 느꼈다고 언급했습니다.",
+          "description_en": "There are complaints about the repetitiveness of the main quests. Many reviewers felt that the story was uninteresting and that they were bored by repeating the same types of quests.",
+          "severity": "major",
+          "frequency": 6,
+          "representative_quotes": [
+            {
+              "review_id": 84856893,
+              "text": "Did not enjoy this game. Main questline is too boring as it feels repetitive (In order to find someone, you have to find another, then find something for that someone and repeat). I did not enjoy the health mechanism and I would have liked a more customisable armor set where you can manually do stuff to alter the armor stats based on your level. Lastly the levelling up system is so stupid, if I level up I would like something like runescape where you can focus on different skills and there is a huge variety there. In this game there isnt much skills to work on and even if you do unlock skills you can only use a certain number. 3/10. No Recommendo"
+            },
+            {
+              "review_id": 84522059,
+              "text": "The game becomes uninteresting after a while because while well written you are essentially doing the same thing over and over again. The game play is simplistic in that you dodge, attack, and repeat. After repeating the same attacks for dozens of hours you get so good at it that the game becomes extremely easy. Levelling up takes a long time and the rewards are limited, and the magic is simple and not interesting to play with. The great graphics kept me captivated for a long time and the scenes are great to look at, but eventually the beauty of the game only captivates you for so long until you discover that every mission is the same; You go out and kill some enemies. I played for over 100 hours and slowly got tired of it until I decided to quit and play something else, and I don't really feel like going back to it now."
+            },
+            {
+              "review_id": 83393613,
+              "text": "I've started this game twice, after the number of people who swear this game is a revelation, etc. The first 5 odd hours are all fetch quests, and NPCs that won't help you until you complete their fetch quest. I also found the control system to be clunky and unfortunate. Maybe it gets better after the first few hours, but I don't have the patience to find out"
+            }
+          ]
+        },
+        {
+          "title": "조작감과 UI 문제",
+          "title_en": "Control and UI issues",
+          "description": "조작감이 불편하고 UI가 직관적이지 않다는 불만이 있습니다. 특히 PC 포트에서 버튼 바인딩 문제와 같은 조작상의 어려움이 지적되었습니다.",
+          "description_en": "There are complaints about uncomfortable controls and a non-intuitive UI. Issues such as button binding problems in the PC port have been highlighted as significant difficulties.",
+          "severity": "major",
+          "frequency": 5,
+          "representative_quotes": [
+            {
+              "review_id": 83342800,
+              "text": "Horrible PC port. Start the tutorial and have several abilities not bound to any buttons. When a company can't even auto bind abilities used within the first 5 minutes of a game.....just wow. Now if you can get beyond the fact that its a PC port and controls are clunky and there is no first person camera option without installing a mod, the story starts out well. Perhaps my opinion will change the further I get into the game, but based on my history with other PC ports, the chunkiness outweighs any other positives."
+            },
+            {
+              "review_id": 84064588,
+              "text": "4 hours in, I personally didn't like the game. Combat is annoying and gameplay is boring, maybe someone else would like it, regret buying the GOTY edition because now I have to play the game + DLC to get moneys worth. Glad it was 70% off though, I don't think this is an 60 dollar game."
+            },
+            {
+              "review_id": 84715994,
+              "text": "By most accounts there is a great game here. I just couldn't find it behind the horrible fighting mechanics. Most of my time was spent playing with the 4K texture mod and using it as a benchmark for my new GPU."
+            }
+          ]
+        },
+        {
+          "title": "게임의 전반적인 지루함",
+          "title_en": "Overall boredom with the game",
+          "description": "게임이 전반적으로 지루하다는 의견이 많습니다. 많은 플레이어들이 게임을 계속 플레이하기 위한 동기를 찾지 못했다고 언급했습니다.",
+          "description_en": "There are many opinions stating that the game is overall boring. Many players mentioned that they struggled to find motivation to continue playing.",
+          "severity": "minor",
+          "frequency": 4,
+          "representative_quotes": [
+            {
+              "review_id": 84198006,
+              "text": "I just can't get into it, it's just so boring and not interesting, I genuinely don't get why this game is praised. Cdprojectred just makes wack games man."
+            },
+            {
+              "review_id": 83371813,
+              "text": "Isn't this the next level Oblivion crap? The reason I bought this game was because I had heard so much about the story and its narration, which after 24 hours of playing I still don't find it that appealing. I have forced myself so many times to come back to this game and finish it just for the sake of giving it the benefit of the doubt and boy every time it disappoints so much.\nIt's overloaded with weird bugs and glitches that Oblivion looks like a child next to it. So many times I've been fallen into weird unrecoverable glitches that now I feel scared to explore the world and do the side quests.\nThe gameplay is painful, the graphics and story are overrated (even for the time of its release), the controls are awkward. It cannot decide if it's a strategy game or role playing. There is too much unnecessary details and items and crap in it that just makes it overly complicated. What difference does it really make if you ate cheese or candy? Is this the hallmark of the required \"thinking\" that the game wants me to do? Why is there so much crap?\nIf you are looking for a game that is so bad it makes you laugh then this is it. The dialogues and voice overs are badly done. The AI is awkward and hilarious. It's Oblivion all over again but not even funnier.\nThe soundtrack is this constant drone like noise made by badly played hurdy-gurdy, it could give the instrument a bad reputation."
+            },
+            {
+              "review_id": 83928862,
+              "text": "A mixed review really, this game has elements from other games that I enjoy and some I do not. The story is very anime in theme but done nicely. I just couldn't get into this one. I even modded it to make the grind less, which I have only done to one other game previously, still couldn't get into it. I am quite sure many players will enjoy this game but to me the play is hollow. The story is quite good, just mixed feelings about the play."
+            }
+          ]
+        },
+        {
+          "title": "버그와 기술적 문제",
+          "title_en": "Bugs and technical issues",
+          "description": "게임에서 여러 가지 버그와 기술적 문제가 발생한다는 불만이 있습니다. 특히 PC 버전에서의 성능 문제와 관련된 리뷰가 있었습니다.",
+          "description_en": "There are complaints about various bugs and technical issues in the game. Reviews specifically mention performance problems related to the PC version.",
+          "severity": "minor",
+          "frequency": 3,
+          "representative_quotes": [
+            {
+              "review_id": 83824219,
+              "text": "Riddled with bugs, no wonder cyberpunk came out the way it did, this game is over 5 years old now\n\nMost over hyped shit right after Cyberpunk 2077. If this is the best game you have played I feel bad for you"
+            },
+            {
+              "review_id": 84662492,
+              "text": "Nothing wrong with this game at all. It runs well. The story is well written and visuals are quality. Shame the company responsible for the game squandered any good will and trust they have accrued from their fans for some(very short term) profits. Take a good look at what capitol and markets will do to even a company with the best intentions. And FFS, stop pre-ordering games."
+            },
+            {
+              "review_id": 84766083,
+              "text": "I just really can't get into the controls and leveling of this game.  I have tried this game repeatably spaced out.  What I saw of the story it seemed good but not my type of game play."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "topic": "게임에 대한 긍정적 반응",
+      "topic_en": "Positive Reactions to Game",
+      "negative_review_count": 1,
+      "issues": []
+    },
+    {
+      "cluster_id": 3,
+      "topic": "위쳐 3의 매력",
+      "topic_en": "The Charm of Witcher 3",
+      "negative_review_count": 21,
+      "issues": [
+        {
+          "title": "게임이 RPG 요소 부족",
+          "title_en": "Lack of RPG elements",
+          "description": "많은 리뷰어들이 이 게임이 전통적인 RPG 경험을 제공하지 않는다고 언급했습니다. 특히, 선택의 결과가 미미하다는 점이 지적되었습니다.",
+          "description_en": "Many reviewers mentioned that the game does not provide a traditional RPG experience. Specifically, the lack of meaningful consequences for choices was highlighted.",
+          "severity": "major",
+          "frequency": 8,
+          "representative_quotes": [
+            {
+              "review_id": 84618127,
+              "text": "The game was way too overhyped for what it actualy offered. \nI was told that i whould get an awesome RPG expirience, where all my choices had consequences.\nWhat i was given was a mediocre melee focused game, where non of my choices in the early parts mattered. Neither the fact that i prefer to work for less or no money at all was represented in any way in the story.\nThe fact that i chose hand to hand comabt over sword combat when fighting humans was completly ingnored and i was just forced a sword in my hand in cutscenes.\n It´s a game that has to shove unnescessary overly sexual conent into every other cutscene of the main campaign. It also lacks proper ways of teaching you what you have to do for certain enemies. Yes i know the bestiary tells me what things are \"useful\" against an enemy. But i whould say that telling me that i need a certain ability or item to even be able to damage an enemy counts as something different.\nThe fact that the game decides when youa re in combat and when not is also just such an ass backwards idea that i can´t explain how anyone at CDPR could think it´s a good idea. Especialy since there are enemies that can damage you while beeing outside the range of this \"feature\". In other words, even though i had the ability to deflect arrows, i wasn´t allowed to use it because the game decided i wasn´t in combat."
+            },
+            {
+              "review_id": 84877517,
+              "text": "Listen. I just played the whole trilogy from start to finish. I cannot recommend this game or any in the series to anyone. When a game has issues you fix them, you don't replace them with all new issues. CDPR spent too much time trying to find the mechanics they wanted to ever try improving on what they had and the result is that 1 has the best character customization in terms of number of choices, while 2 has the most meaningless choices, 3 tried to go back to 1's style but in a different way and ultimately came off as too simplified. The best controls go to 2, which was okay but still had some issues. All of them are walking simulator RPG's and should gain the tag Walking Simulator due to the lack of useful fast travel points built into the games themselves if any at all. If you don't enjoy walking/running or riding a horse that is barely faster than Geralt for five to ten minutes at a time don't buy this game or any in the series. What makes this game a hot mess is that the story even going from game to game required me to look to outside sources to connect the events. This is a big no-no that game developers need to stop doing. It didn't work well for Blizzard and it equally bad here. I shouldn't feel forced to purchase books or movies to follow a plot. That's just corporate greed attempting to milk it's customer base. This series in short made me angry and annoyed that a developer could make such terrible choices and get so much defense for it with people citing \"characters\" or \"story\" or \"gameplay\" all of which are subpar at best and irritating at worst. The real kick to the groin was when the games focused on people other than Geralt which was unfortunately unavoidable as the nature of the Witcher is that he is a sort of narrator or chronicler of events that the player sees the world through. Dandelion is annoying, Triss is annoying, Zoltan was a bore almost seemingly written to appease the \"bro\" crowd with his fratboy behavior, Shani being tossed into DLC was BS meant to milk fans, I'm not buying DLC even if the girl I chose in the first game is in it, not cool CDPR. Ciri was written like a common rebellious teen outside of her main story events and it was jarringly bad for someone with the wherewithal to plot a divide and conquer strategy to turn around and want to do bad things because the person we are doing them to is bad. It also flew in the face of many choices in the game that lead to an ending you can only get when you show her the value of being a decent human being, which according to the developers is a manic psychopath as one reaction is to vent like a ***** and throw crap around. Please note that I will never travel to Poland as apparently the way my oldest sister behaves is okay and I prefer to NOT have my car stolen to go kidnap children from child services. Finally let's talk about the overly simple plot every likes to tote around. It was common fantasy garbage and taking your sweet time in getting around to it doesn't make it any better. We have a chosen one which isn't you, done before, who has to save the world, done before, from an otherwise unstoppable force that no one can comprehend, done before. The journey was just as bad as the destination. Either the original works CDPR used aren't all that great or CDPR just stinks at making games. Either way I'm on to Cyberpunk this summer but I'm taking a break from that one and at least giving them a chance to fix their broken garbage.\n\nI was saving this critique for last because I wanted this to end on a positive note. There are good things about this game. It's beautiful even now 6 years after release I find it has graphical quality that almost rivals modern AAA titles. Using graphics mods only makes it better and far tops even the most expensive AAA titles out there now. Well done graphics team. I also would like to take a moment to acknowledge how generally bug free a game of this size is. Compared to Skyrim or other massive world titles I expected so many bugs, I expected to fall through the ground at some point.\n\nI would like to see CDPR make a homebrew IP instead of using other IP's at some point. It's clear they don't understand mechanics for the life of them but they can make some stunning visuals and managed to follow a janky slav story long enough to hammer out three games from it's novels. Especially if the titles are small enough to let them make an in house IP of it without stretching the budget."
+            },
+            {
+              "review_id": 83511045,
+              "text": "[h1]Beware: Witcher 3 is a Visual Novel[/h1]\n\nAt the end of the Prologue there is an event [spoiler]you have no choice but to kill some pitiful bandits at the Inn[/spoiler] which opened my eyes to the fact that this is primarily a Visual Novel and only secondarily an RPG. As for the roleplaying part, well, you're just along for the ride on Geralt's back. The choices you're given feel very limiting.\n\nEdit: The game just forced me to play as another character [spoiler]Ciri[/spoiler]. No choice of abilities or skills. This is beyond awful! Some people call this \"story driven\", but that's deceptive. \"Visual novel\" is the proper label."
+            }
+          ]
+        },
+        {
+          "title": "지루한 게임플레이",
+          "title_en": "Boring gameplay",
+          "description": "여러 리뷰어들이 게임이 지루하다고 느꼈으며, 전투와 탐험이 반복적이고 단조롭다고 언급했습니다. 특히, 전투 시스템이 재미없다는 의견이 많았습니다.",
+          "description_en": "Several reviewers found the game boring, mentioning that combat and exploration felt repetitive and monotonous. There were many opinions stating that the combat system was not enjoyable.",
+          "severity": "major",
+          "frequency": 6,
+          "representative_quotes": [
+            {
+              "review_id": 84146704,
+              "text": "Without a doubt the most boring trite I have ever played in my life. On a technical level it's a good game, it runs well, it's pretty and there is clearly a lot of love put into the game. However, the game itself is absolutely mind-numbing. \n\nThe gameplay is very similar to the 'Batman: Arkham' games with combos and gadgets, but unlike the Arkham games the Witcher 3's combat is not only easy and hilariously abusable - its also boring. The game gives you the tools to make combat irrelevant in the form of signs, oils and decoctions: Igni does a ludicrous amount of damage, Quen makes you functionally invincible if you have a brain, decoctions buff you to absurd degrees and  oils skyrocket your damage even further. Raising the difficulty makes no appreciable difference, enemies simply have more health and damage which just forces you to rely more on the trivialising signs and oils. Bosses are similarly meaningless; just bigger enemies to annihilate with said tools. The only time the game is difficult is when enemies swarm you and lunge at you from off-screen to one-shot you but it doesn't matter because I have quen and I'm fucking invincible. \n\n\"Just don't use signs or oils if they make the game so easy,\" I hear you say from your highchair. Let's just ignore that doing so removes half the game and go with it, and well now suddenly you just added 50 extra hours to the gameplay because enemies now have one million health. If you have even the slightest amount of skill in any video game with a functioning combat system you wont need oils and are probably saving time by not wandering around for hours picking up plants. None of this would be a problem if it wasn't all so fucking boring, the combat can be easy if its fun but it isn't. It's clunky, it's slow. It is boring.\n\n\nMaybe the puzzles are really good? Sadly, there are no puzzles in Witcher 3. Despite what you may think, walking into a room and turning on [strike]detective-vision[/strike] Witcher-sense and hunting for pixels is not a puzzle, you are not solving anything by following a bread crumb trail, you are not solving anything by listening to Geralt tell you what to do and you are not solving anything by hunting glowing pixels until you are to allowed to leave. \"Puzzles\" in Witcher are time-wasters to make people think that they are actually solving shit when really you're just walking around in circles, listening to boring dialogue and clicking on glowing buttons like a conditioned ape. Now that I think about it... puzzles in Witcher are very similar to the puzzles in Dora the Explorer.\n\n\nWell it is a story based game, so surely the story is good. To be honest I never finished the story, I had better things to do with my time run than between 50 npcs to have boring conversations about the lives of paper-thin, predictable carcitures. As to how far i got in the story itself, I stopped playing a few hours after the 'Bloody Baron' questline. Lets go over the 'Bloody Baron' questline. (Spoiler warning) It is a story that covers the tragedy of a poor baron who beats his wife and child to within an inch of their lives and now feels sad that they left him :'(. Your role in this is that he knows your estranged god-like super-soldier adopted daughter that you, for whatever reason, are worried about and he has knowledge of her whereabouts so now are forced to do several hours of soul crushingly boring I-Spy puzzles and meaningless dialogue with a wife beater you're a supposed to feel sorry for. People often point to this part of the game as being an excellent story with great characters which may be true if you have never engaged in any media beyond spongebob. However this is supposed to be an adult story for adult brains which is funny considering the gameplay until this point treats you as if you are 6 years old. It's kinda concerning, especially when you consider that most of the target audience for this game aren't going to be able to pick up on any of the themes it almost conveys or take it in the completely wrong direction since gamers arent known for their respect for women. Thankfully the quest ends and you are given your precious information about how your princess is in another castle which from what i am told is basically how the rest of the game goes. I was not able to get much deeper information about the rest of the story as anyone else I know fails to remember anything beyond brief moments and/or the dreams they had falling asleep while playing. If you're crying from your crib while reading my review, answer this; do YOU remember the story? \n\n\nWhat it all really comes down to is that Witcher 3 is a babys-first RPG masquerading as something more. Its combat is clunky, unfun and abusable, its story is shallow and predictable, the RPG elements are limited to being Geralt and worst of all, in a medium with one major goal, The Witcher 3 is boring. Despite all that I have said, I understand that enjoyment is subjective and you're allowed to enjoy The Witcher 3. Jesus, it can even be your favourite game for all I care. However, quality is objective and Witcher 3 is objectively a bad game and the people who treat it like some incredible masterpiece that changed the landscape of video games are just wrong. When Dark Souls came out it was so beloved that it inspired an entire genre known as 'Souls-likes' some of which went on to great success such as: Star-Wars Fallen Order and Nioh. Even other nerd games like Hollow Knight are heavily inspired by Dark Souls. I struggle to find refrences or any game made in The Witchers image, 6 years since this game came out, and yet no one bothers to make a copycat game or anything like it. Let me repeat - it is not because the game is too perfect to imitate, but because anyone with understanding of video games knows that not only is it a shit game and isn't worth replicating, but no game developer wants to be in crunch time for two years to make endless mediocre quests with the same writing level as Skyrim. \n\n\nIf you're looking for an RPG experience that isnt a complete waste of time I suggest the following:\n\nMisc: Horizon Zero Dawn, Red Dead Redemption 2, Final Fantasy 7 (I hear the remake is good), Vampyre the masquerade bloodlines (combat is crap but the story is vast), Bioshock 1 (not much of RPG but one of the best stories in video gaming), Undertale (despite the memes it is legitimately a good game with a lot of heart)\n\nSci-fi: Fallout New Vegas, Mass Effect 1-3,  Deus Ex Human Revolution, Deus Ex Mankind Divided, the original Deus Ex (2000) is a legitimate masterpiece but it's like 20 years old and I wouldn't recommend it unless you are prepared for something so outdated\n\nFantasy: Dragon Age, Skyrim (much like Witcher it's an extremely entry level RPG but even though it's shit it's at least fun), Monster Hunter World (stories on the low end but combat-wise it's a lot of fun) DARK SOULS 1-3 (I am biased in this as it is my favourite game but it does something Witcher 3 never does... let go of your hand)"
+            },
+            {
+              "review_id": 83612368,
+              "text": "I bought this game expecting an RPG experience in a Fantasy setting reminiscent of The Elder Scrolls, and that's about all I could handle. After an hour and a half, I was tired of the combat, had no reason to like Geralt, and generally found the NPCs to be completely inhospitable. There were few redeeming qualities to hook me on the game. There might be a good game in here, but if I actively avoid pressing the \"Launch Game\" button, I'm never going to find it."
+            },
+            {
+              "review_id": 84877517,
+              "text": "Listen. I just played the whole trilogy from start to finish. I cannot recommend this game or any in the series to anyone. When a game has issues you fix them, you don't replace them with all new issues. CDPR spent too much time trying to find the mechanics they wanted to ever try improving on what they had and the result is that 1 has the best character customization in terms of number of choices, while 2 has the most meaningless choices, 3 tried to go back to 1's style but in a different way and ultimately came off as too simplified. The best controls go to 2, which was okay but still had some issues. All of them are walking simulator RPG's and should gain the tag Walking Simulator due to the lack of useful fast travel points built into the games themselves if any at all. If you don't enjoy walking/running or riding a horse that is barely faster than Geralt for five to ten minutes at a time don't buy this game or any in the series. What makes this game a hot mess is that the story even going from game to game required me to look to outside sources to connect the events. This is a big no-no that game developers need to stop doing. It didn't work well for Blizzard and it equally bad here. I shouldn't feel forced to purchase books or movies to follow a plot. That's just corporate greed attempting to milk it's customer base. This series in short made me angry and annoyed that a developer could make such terrible choices and get so much defense for it with people citing \"characters\" or \"story\" or \"gameplay\" all of which are subpar at best and irritating at worst. The real kick to the groin was when the games focused on people other than Geralt which was unfortunately unavoidable as the nature of the Witcher is that he is a sort of narrator or chronicler of events that the player sees the world through. Dandelion is annoying, Triss is annoying, Zoltan was a bore almost seemingly written to appease the \"bro\" crowd with his fratboy behavior, Shani being tossed into DLC was BS meant to milk fans, I'm not buying DLC even if the girl I chose in the first game is in it, not cool CDPR. Ciri was written like a common rebellious teen outside of her main story events and it was jarringly bad for someone with the wherewithal to plot a divide and conquer strategy to turn around and want to do bad things because the person we are doing them to is bad. It also flew in the face of many choices in the game that lead to an ending you can only get when you show her the value of being a decent human being, which according to the developers is a manic psychopath as one reaction is to vent like a ***** and throw crap around. Please note that I will never travel to Poland as apparently the way my oldest sister behaves is okay and I prefer to NOT have my car stolen to go kidnap children from child services. Finally let's talk about the overly simple plot every likes to tote around. It was common fantasy garbage and taking your sweet time in getting around to it doesn't make it any better. We have a chosen one which isn't you, done before, who has to save the world, done before, from an otherwise unstoppable force that no one can comprehend, done before. The journey was just as bad as the destination. Either the original works CDPR used aren't all that great or CDPR just stinks at making games. Either way I'm on to Cyberpunk this summer but I'm taking a break from that one and at least giving them a chance to fix their broken garbage.\n\nI was saving this critique for last because I wanted this to end on a positive note. There are good things about this game. It's beautiful even now 6 years after release I find it has graphical quality that almost rivals modern AAA titles. Using graphics mods only makes it better and far tops even the most expensive AAA titles out there now. Well done graphics team. I also would like to take a moment to acknowledge how generally bug free a game of this size is. Compared to Skyrim or other massive world titles I expected so many bugs, I expected to fall through the ground at some point.\n\nI would like to see CDPR make a homebrew IP instead of using other IP's at some point. It's clear they don't understand mechanics for the life of them but they can make some stunning visuals and managed to follow a janky slav story long enough to hammer out three games from it's novels. Especially if the titles are small enough to let them make an in house IP of it without stretching the budget."
+            }
+          ]
+        },
+        {
+          "title": "과도한 시간 소모",
+          "title_en": "Excessive time consumption",
+          "description": "리뷰어들은 게임이 불필요한 활동으로 시간을 낭비한다고 불만을 제기했습니다. 특히, 이동과 반복적인 퀘스트가 문제로 지적되었습니다.",
+          "description_en": "Reviewers complained that the game wastes time with unnecessary activities. In particular, traveling and repetitive quests were highlighted as issues.",
+          "severity": "major",
+          "frequency": 5,
+          "representative_quotes": [
+            {
+              "review_id": 85109753,
+              "text": "While there is a lot of content, the game loves to waste your time by filling huge amounts of time with mindless/idle activities such as riding your horse from point A to point B or having to walk to a signpost to fast travel. There are also tons of filler quests that have no impact on the story at all and boil down to killing a few monsters. On a positive note, Gwent is the best minigame in any game I've played. However, after 10+ hours I was already finding myself bored of the dull combat and repetitive quest design. I eventually added mods to try to improve the experience (multiple quest icons, fast travel from anywhere, other misc QOL mods) but even after adding these basic features that should have been in the game in the first place, it still was not compelling enough to continue."
+            },
+            {
+              "review_id": 84096080,
+              "text": "Probably won't be a popular opinion, and I'm not super far into it, but I can't recommend this. But if fetch quests that you can't complete until you complete three other nested fetch quests first, and then another one when you thought you were finally done, along with lots of following NPCs around (who are faster than your walking speed, and slower than your running speed -- and they take you way far away, and then you just have to go back -- all the while making sure nothing happens to the precious NPC), then maybe this is your game. The first Witcher game was better,  and I didn't bother to finish that one, either."
+            },
+            {
+              "review_id": 84801279,
+              "text": "The Witcher 3 does not respect my time. 7.8/10 dont recommend if you have literately anything else that requires major commitment...like a job and family if you want to get through this game in less than a couple months\n\nAs an Rpg in some aspects it is impressive but lacking in any meaningfulness decent with some purpose or lacking in understanding of how to address problems that have plagued RPGS (and would need to tackle to deserve the praise it does IMO) This game may have lots of content but that doesn't matter when you feel like you are going nowhere in terms of progression and overall feels like more spectacle than substance.\n\nLet me start off my criticism with the most....i want to say....immediately pressing and would be instantly brushed off as a illegitimate criticism: the open world. Open worlds have come a long way but they have had problems that have been addressed and similar to criticisms of certain games that have hub worlds, yes you might have side quests and little caves that might have a enemy or 5 and a chest or 2, but side-quests are guided by level and have a level system in an open world game isn't inherently bad but when you give me shit from the DLC and like level 37 quests i can find at level 7 (IF I EXPLORE WHICH IS LIKE THE ENTIRE PURPOSE OF AN OPEN WORLD) it would have been better to split up places and have a more streamlined experience and not risk me finding end game stuff at levels where that shit dont and wont matter until i have invested 100+ hours (and has been solved in other rpgs (and solved in a really popular one that has re-released more times than my niece has lived in years *hint**hint) btw)) in and with how shallow the main way of progression is *cough**cough* bad combat system *cough**cough* (aside from the stories told cause in terms of that the main quests  stories they tell are decent and only really never drop lower than mundane with slight intrigue which is something that 99 percent of other games especially in this genre NEVER come close to which is saddening as rpgs are up there for me along with action and platforming in terms of how much I like them)) with the depth-less fluff that is most of the side-side-content like the caves and little areas and things to that extent that are as shallow of content i have seen in many RPGS but praised here as \"not necessary stuff they just happened to put in for US, yes worship company\" and here is one of the major problems further facilitated by \"side content\" in rpgs *ahem* SIDE CONTENT IS NOT SIDE CONTENT IF YOU NEED TO DO IT TO PROGRESS TO A POINT THAT YOU CAN DO MORE \"INTERESTING\" *cough**cough* bad combat system *cough**cough* (in this one) SHIT, WHICH 1. RPGS FROM THE 1990s TO NOW HAVE SUFFERED FROM and 2. A GAME WOULD NEED TO ADDRESS TO BE CONSIDERED THE BEST GAME/RPG OF ALL TIME BECAUSE BELIEVE IT OR NOT IT WOULDN'T BE A PROBLEM IF HOW YOU PROGRESS WASN'T SO SCATTER-BRAINED and  is resolved with better consideration of the risk and problems of having an open world & a leveling system that has been done better in games where there 1. weren't any open worlds and 2 had the devs consider progression and added solutions like the level of a quest being determined by your current level, or enough experience to when you experience that section you'd be the right level to progress, etc. To me it seems the open world was put in not to be genuine used fully consistently or of better quality as a game than games without one like in nondescript nintendo paper styled rpg from early 2000s (the last good one on nondescript cube console) & other nondescript open-world fanatsy nintendo rpg from late/mid 2010s on nondescript handled and portable console but more as spectacle that ended up hurting how you progress through it which AGAIN has been solved for YEARS and further contributes to me not seeing eye to eye on people that over-indulge in the fantasy that is this game being better than like a 7.8/10 from a company that was praised until recently, that has put up a good face of pro-consumerism in the eyes of the gaming landscape (& seems to me why some think its better than it is)\n\nDO YOU WANT TO TALK ABOUT THE FUCKED COMBAT SYSTEM THAT IS SO MEDIOCRE AND FLAWED THAT IT FORCES ME TO THINK THAT PEOPLE THINK THIS GAME IS 10/10 ARE 100% BUTT-FUCK FUCKING INSANE. First of let me list the problems then go more in depth with them: lack of complexity, stuttery fucking mess (partly to blame is the movement system), problems with communication and lack of impact due to it.\n\nComplexity: At most the complexity of this combat system is select one ability that is the obvious weakness of the enemy use it and kill it or allow it to be damaged then wait to do again. Nothing really offensive here but expecting this to support a game for more than 8 hours is a fucken pipe dream and the enchanting system only insults this system really and screams the most surface level and actually a slight lack of understanding on how to make a combat system fun.\n\nstuttery fucking limiting mess: This game has lock on and movement  system worse than darksouls and darksouls doesnt have to most complex or better than average movement system in terms of mechanical skill needed (Dark Souls however uses the parameters that it does have masterfully though) and due to this lack complexity you'd think it be good just fundamentally and this is were i must express this idea: 1.movement is the most important thing to nail even in an RPG (it doesnt have to be complex btw it just has to be good enough for the feel you want & used in a way where you understand its limits & use what you do have masterfully (ie. DarkSouls...again)) and 2. Animation based movement (rather than just pure parameter/programmed with animation made to match up or not depending on how lazy you are feeling when programming/animating-based movement that doesn't take into account some mundane parts if the world like a small ditch in a dirt road for example (unless you let physics take over small details but even then if the ditch is deep enough it wont look realistic) Isnt always the answer and actually is less responsive if implemented poorly like it is here. It is done really well in things like Shadow of War (where lots of predictions are used and could have aspects of real-time animation used but still seems to be animation based (CORRECT ME IF I AM WRONG HERE)) and an example of good control without pure animation based movement A Hat In Time (the best platformers have gotten in terms of base mechanics though it could still be improved and slight side tangent: (UNDERSTAND THE IMPORTANCE OF USING THE CAMERA'S FORWARD VECTOR instead of the CHARACTER'S in certain circumstances AND IT'll MAKE YOUR GAME BETTER... if you know how to use it right when making a platformer or any game for that matter it'd be better... fuck realism and/or oversights in impact of a small detail as such and improve game feel) Anyway back on topic, Wicther 3's movement when walking around relatively flat or spacious and kinda round terrain seems fine then add trees and attack tracking & the same 1 or 2 animations when attacking and the problem is exacerbated if not semi-consistent in its effect; getting stuck on terrain and being zoomed up if in jutting and spike like terrain happens and thus the realism achieved in the walking cycle MEANS EVEN LESS THAN THE NOTHING IT SHOULD.\n\n\"problems with communication and lack of impact due to it\": now you might think\"communication what the fuck is this talking about?\" but show the general point animation and effects are used to what? To show you and communicate to you what the fuck is happening. Witcher has this problem when doing heavy attacks/bad use particle effects when attacking in general & thus the problem of lack impact occurs due to it. and to i realized that i reached the word count when trying to add more at some point but i have many more problems here than stated here i could go into quests and the good of it. :D"
+            }
+          ]
+        },
+        {
+          "title": "과대평가된 게임",
+          "title_en": "Overhyped game",
+          "description": "많은 리뷰어들이 이 게임이 과대평가되었다고 느꼈으며, 기대에 미치지 못한다고 언급했습니다. 특히, 스토리와 캐릭터에 대한 기대가 컸습니다.",
+          "description_en": "Many reviewers felt that the game was overhyped and did not meet their expectations. In particular, there were high hopes for the story and characters.",
+          "severity": "minor",
+          "frequency": 4,
+          "representative_quotes": [
+            {
+              "review_id": 83569778,
+              "text": "From the perspective of someone who has never played a Witcher game, and has only heard positive things about them (including something along the lines that you needn't play the first two games in order to understand what is happening) the Witcher III was an immeasurable disappointment. To say this game is over-hyped would be an understatement.\n\nEvery step of the game is met with countless tutorials to help hold your hand throughout the first hours of gameplay. Some are helpful, like combat mechanics, but most are arbitrary and basic mechanics that should not be explained if the user interface was any better. Games such as Dragon Age keep the process of leveling and upgrading simple, without shoving thick heaps of information in your face.\n\nCombat is the worst, with the PC controls being absolutely maddening and with what appears to be basic combat mechanics missing. As much as i would love to play the game with finesse, the simplest way to beat enemies would be to treat them like Dark Souls enemies and simply roll around until an opening occurs for you to maybe (big maybe) get a hit off, which I REALLY hate to do. The power scaling for most enemies is also way off balance near the start, with zergs of monsters showing up to beat your entry-level skills as you attempt to explore. \n\nAs far as the story goes, the introduction hooked me and reminded me of Berserk in a way. But it quickly fell apart and revealed itself to be a bland 2-dimensional monologue with little-to-none player influence despite it hinting some sort of mechanic that takes into account your actions. They might as well just have had cutscenes play rather than the player interact because the end result never changes save for maybe a sentence or two. In this regard, the Dragon Age titles and Mass Effect titles are far superior in both storytelling and character interactions.\n\nTLDR: I had high hoped for this game based on the hype, but it was an immeasurable letdown."
+            },
+            {
+              "review_id": 83697568,
+              "text": "I find The Witcher 3 to be a difficult game to judge.\n\nOn one hand it's an incredibly overrated game. The world of The Witcher 3 is shallow, it's all appearances which makes it end up feeling hollow with nothing really dynamic going on at all. The combat system feels floaty and janky. The RPG mechanics are shallow and the way the game handles equipment is horrendous. The game is also abandoned by the developers despite there being game breaking bugs left unfixed years later, so beware!\n\nOn the other hand the game does have excellent writing and acting with engaging side content. Despite the game marketing itself as an Action RPG I would recommend engaging the game as a visual novel instead. Put the game at whatever difficulty suits you best and immerse yourself in the story since it's the only thing this game does excellently. But since the game fails in many areas that I personally find crucial for an Action RPG I can not recommend this game.\n\nOh yeah, I also don't get why this was nominated as a Labour of Love. It's been years since the last DLC and they haven't released an official patch in a long time despite there still existing gamebreaking bugs years after release. I get that they're working on a next-gen remaster but god knows when it's going to be released or what state it will be released in."
+            },
+            {
+              "review_id": 84025532,
+              "text": "Everything good in this game you can get off the Internet, namely the soundtrack, visuals, and assets (which I believe they let you use for modding in other games for free? Or just Witcher 2 assets). I tried refunding but because I sat on this game for months before trying it, they wouldn't let me refund it. Its main character is awful, the combat is clunky, and it leans way too hard on the \"sex sells\" idea to the point where they shove naked girls at you in the first cutscene. It's heavyhanded cringe and turned me off on the game very hard. By the end of the tutorial when I beat the Griffin, there were no characters I ever cared about and I felt no motivation to continue. \n\nMy greatest regret is not refunding this game sooner. CDPR shouldn't have gotten my money, especially since they put out that garbage Cyberpunk game using that money."
+            }
+          ]
+        },
+        {
+          "title": "NPC와의 상호작용 부족",
+          "title_en": "Lack of interaction with NPCs",
+          "description": "리뷰어들은 NPC들이 매력적이지 않다고 느꼈으며, 상호작용이 부족하다고 언급했습니다. 이는 게임의 몰입감을 저해하는 요소로 작용했습니다.",
+          "description_en": "Reviewers felt that NPCs were unappealing and that there was a lack of interaction. This contributed to a decrease in immersion in the game.",
+          "severity": "minor",
+          "frequency": 3,
+          "representative_quotes": [
+            {
+              "review_id": 83612368,
+              "text": "I bought this game expecting an RPG experience in a Fantasy setting reminiscent of The Elder Scrolls, and that's about all I could handle. After an hour and a half, I was tired of the combat, had no reason to like Geralt, and generally found the NPCs to be completely inhospitable. There were few redeeming qualities to hook me on the game. There might be a good game in here, but if I actively avoid pressing the \"Launch Game\" button, I'm never going to find it."
+            },
+            {
+              "review_id": 83511045,
+              "text": "[h1]Beware: Witcher 3 is a Visual Novel[/h1]\n\nAt the end of the Prologue there is an event [spoiler]you have no choice but to kill some pitiful bandits at the Inn[/spoiler] which opened my eyes to the fact that this is primarily a Visual Novel and only secondarily an RPG. As for the roleplaying part, well, you're just along for the ride on Geralt's back. The choices you're given feel very limiting.\n\nEdit: The game just forced me to play as another character [spoiler]Ciri[/spoiler]. No choice of abilities or skills. This is beyond awful! Some people call this \"story driven\", but that's deceptive. \"Visual novel\" is the proper label."
+            },
+            {
+              "review_id": 84877517,
+              "text": "Listen. I just played the whole trilogy from start to finish. I cannot recommend this game or any in the series to anyone. When a game has issues you fix them, you don't replace them with all new issues. CDPR spent too much time trying to find the mechanics they wanted to ever try improving on what they had and the result is that 1 has the best character customization in terms of number of choices, while 2 has the most meaningless choices, 3 tried to go back to 1's style but in a different way and ultimately came off as too simplified. The best controls go to 2, which was okay but still had some issues. All of them are walking simulator RPG's and should gain the tag Walking Simulator due to the lack of useful fast travel points built into the games themselves if any at all. If you don't enjoy walking/running or riding a horse that is barely faster than Geralt for five to ten minutes at a time don't buy this game or any in the series. What makes this game a hot mess is that the story even going from game to game required me to look to outside sources to connect the events. This is a big no-no that game developers need to stop doing. It didn't work well for Blizzard and it equally bad here. I shouldn't feel forced to purchase books or movies to follow a plot. That's just corporate greed attempting to milk it's customer base. This series in short made me angry and annoyed that a developer could make such terrible choices and get so much defense for it with people citing \"characters\" or \"story\" or \"gameplay\" all of which are subpar at best and irritating at worst. The real kick to the groin was when the games focused on people other than Geralt which was unfortunately unavoidable as the nature of the Witcher is that he is a sort of narrator or chronicler of events that the player sees the world through. Dandelion is annoying, Triss is annoying, Zoltan was a bore almost seemingly written to appease the \"bro\" crowd with his fratboy behavior, Shani being tossed into DLC was BS meant to milk fans, I'm not buying DLC even if the girl I chose in the first game is in it, not cool CDPR. Ciri was written like a common rebellious teen outside of her main story events and it was jarringly bad for someone with the wherewithal to plot a divide and conquer strategy to turn around and want to do bad things because the person we are doing them to is bad. It also flew in the face of many choices in the game that lead to an ending you can only get when you show her the value of being a decent human being, which according to the developers is a manic psychopath as one reaction is to vent like a ***** and throw crap around. Please note that I will never travel to Poland as apparently the way my oldest sister behaves is okay and I prefer to NOT have my car stolen to go kidnap children from child services. Finally let's talk about the overly simple plot every likes to tote around. It was common fantasy garbage and taking your sweet time in getting around to it doesn't make it any better. We have a chosen one which isn't you, done before, who has to save the world, done before, from an otherwise unstoppable force that no one can comprehend, done before. The journey was just as bad as the destination. Either the original works CDPR used aren't all that great or CDPR just stinks at making games. Either way I'm on to Cyberpunk this summer but I'm taking a break from that one and at least giving them a chance to fix their broken garbage.\n\nI was saving this critique for last because I wanted this to end on a positive note. There are good things about this game. It's beautiful even now 6 years after release I find it has graphical quality that almost rivals modern AAA titles. Using graphics mods only makes it better and far tops even the most expensive AAA titles out there now. Well done graphics team. I also would like to take a moment to acknowledge how generally bug free a game of this size is. Compared to Skyrim or other massive world titles I expected so many bugs, I expected to fall through the ground at some point.\n\nI would like to see CDPR make a homebrew IP instead of using other IP's at some point. It's clear they don't understand mechanics for the life of them but they can make some stunning visuals and managed to follow a janky slav story long enough to hammer out three games from it's novels. Especially if the titles are small enough to let them make an in house IP of it without stretching the budget."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "topic": "최고의 게임",
+      "topic_en": "Best Game Ever",
+      "negative_review_count": 1,
+      "issues": []
+    },
+    {
+      "cluster_id": 5,
+      "topic": "무료 키 제공",
+      "topic_en": "Free Key Offers",
+      "negative_review_count": 4,
+      "issues": []
+    },
+    {
+      "cluster_id": 6,
+      "topic": "위쳐3:와일드 헌트 평가",
+      "topic_en": "The Witcher 3: Wild Hunt Review",
+      "negative_review_count": 42,
+      "issues": [
+        {
+          "title": "조작감 및 전투 시스템 불만",
+          "title_en": "Issues with controls and combat system",
+          "description": "여러 리뷰에서 조작감이 불편하고 전투 시스템이 재미없다는 불만이 제기되었습니다. 특히, 전투의 단조로움과 조작의 불편함이 몰입을 방해하고 있습니다.",
+          "description_en": "Multiple reviews express dissatisfaction with the controls and combat system, highlighting issues with discomfort in controls and lack of enjoyment in combat. The monotony of combat and control difficulties hinder immersion.",
+          "severity": "major",
+          "frequency": 8,
+          "representative_quotes": [
+            {
+              "review_id": 80651368,
+              "text": "하 ... 게임 존ㄴ 스트레스 받네 조작감도 ㅄ이고 시발 버그 생각보다 많아"
+            },
+            {
+              "review_id": 75061490,
+              "text": "스토리와 게임성은 전설 그 자체, 의심의 여지가 없습니다.\n\n다만, 제가 모든 게임에서 가장 중요하게 생각하는 부분은 조작감입니다.\n\n그렇다보니 불편한 조작감으로 인해 몰입이 어려웠으며\n검술의 단조로움, 한낱 경비병이 넘볼 수 없을 정도로 강한 점 등이(모드로 해결 가능합니다.)\n이 게임을 오래 잡기 어렵게 만들었습니다.\n\n"
+            },
+            {
+              "review_id": 79346512,
+              "text": "지겹습니다. 지루합니다.\n최다 고티를 받고 사람들이 찬양을 하는 것치고 너무 재미가 없었습니다.\n오픈월드 좋아하고 판타지 좋아하지만\n위쳐3의 특유의 제약이 있는 듯한 전투방식과 마법은 저에게 굉장히 재미가 없었습니다.\n\n스카이림같은 게임은 자신의 캐릭터를 꾸며가며 내가 이 캐릭터구나. 라는 생각을 가지며\n몰입하며 플레이하게되지만 \n\n위쳐3는 그냥 게롤트라는 캐릭터를 플레이하는 게임이라 몰입이 안됩니다.\n무엇보다 너무 지루함.\n\n영화같은 게임을 원하시는 분들은 재밌게 하시겠지만\n스카이림이나 폴아웃같은 게임을 원하시는 분들은 구매하지 않으시는걸 추천드립니다."
+            }
+          ]
+        },
+        {
+          "title": "스토리 및 몰입감 부족",
+          "title_en": "Lack of story engagement and immersion",
+          "description": "게임의 스토리가 흥미롭지만, 몰입감이 떨어진다는 의견이 많습니다. 특히, 주인공의 배경을 이해하지 못하는 신규 유저들이 스토리에 어려움을 겪고 있습니다.",
+          "description_en": "While the game's story is interesting, many reviews indicate a lack of immersion. New players often struggle to understand the story due to the protagonist's background.",
+          "severity": "major",
+          "frequency": 6,
+          "representative_quotes": [
+            {
+              "review_id": 82813106,
+              "text": "저는 솔직히 재미없었습니다. 인터페이스가 전체적으로 저에게 많이 불편하다 느껴지고\n게임아이템 정리가 잘안되니 뭐가뭔지 모르겠네요.\n스토리또한 가끔 주인공이 전작이나 과거에 알던자와 대화하는거보면\n도통 이해가 안갑니다.\n전작배경을 일일히 알아보지않으면 무슨소리를 하는지..\n새로하는 유저에게  알아서 공부하고 오세요 라는 느낌밖에 안드네요..\n저는 게임을 하러왔지 공부를 하러온게 아니라서.. 별로였습니다.\n"
+            },
+            {
+              "review_id": 83758425,
+              "text": "과대평가 존나게 들어간 고티청년 게롤트3 ㅋㅋㅋ\n\n게임 겉만 봤을때는 AV표지급인데 이제 바지벗고 틀어보니 뗀석기시대 보는 아이러니한 느낌임\n\n이 씨21발 좃같은 게임하려고 위쳐1, 2 M2 뒤지게 재미없는거 꾸역꾸역 다 깨고나서 시작했는데\n\n갑툭튀 나온 시리 시432발련이 왜 튀어나오는지도 모르겠고 약공격 세례에 땅바닥에 딥키스하는 좃일트헌트인지 \n\n개좃만헌트인지 씹23새2끼들이 뭐가 무섭다고 존2나게 차원이동해가면서 도망치는건지 이해 졷나게 안되었고 \n\n괴물사냥꾼인지 색정증 말기환자인지 씨23발 시리를 찾을거면 찾고 말거면 말던가 개 졷같은 연극퀘라던지\n\n하품 뒤지게 나오는 구성 서브퀘 좃나게 넣어놓고 전투는 연금술 마법 물리 기타스킬 등으로 다 세분화 시켜놓고\n\n막상 싸워보면 빙글빙글 톡 빙글빙글 톡 보23지새끼처럼 싸우는거 보면서 입술사이로 새어나오는 하품 겨우참았다\n\n이럴거면 차라리 좃2도 시3발 오픈월드 같지도 않은 오픈월드 버리고 선형구조로 게임을 만들던지\n\n걸어다니는 병풍새1끼들한테 말걸면 허? 허응~? 꿍시렁꿍시렁 위쳐1 부터 다를거 없는 좃1병2신 다이얼로그\n\n빙글뱅글 톡 뱅글뱅글 톡 해서 뒤지는 잡몹새끼들 피직스 적용 안되어서 위로 통통 튀어다니는거나\n\n2층 높이에서 뛰어도 낙사판정되는 잼민이보다도 못한 체력에 그와중에 피직스 적용 안되어서\n\n일직선으로 누워 떨어지는거 보면 이딴게 15년도 최다고티라고? 라는 생각이 절로 든다\n\n게임이 엉성하니 하품나오고 흡입력이 떨어질수밖에 없음 나만 그렇게 느꼈냐?\n\n대화 선택지 자체도 그 전작보다 더 퇴화한 폴아웃4 보다도 못함 좃 의미없는 텔테일식 시간제한 선택지는\n\n대체 왜 만들어놓은거냐? 웃길라고 넣어놨나?\n\n나온지 5년이 넘어가면서 버그도 안고친게 수두룩빽빽1빽보2지다\n\n사후관리도 좃말아먹고 사이버펑크도 터뜨리고\n\n사이버펑크가 유작이 되길 바란다 CDPR \n\n결국 어쌔신크리드 동일선상 혹은 하위호환일뿐인 게임\n\n참 생각해보니 암살 이딴것도 안되는구나\n\n위쳐3 가 갓겜이라는 애들은 딱 그거임 남들이 갓겜이라니까 세뇌당한거고\n\n그거 아니면 저능아 ㅋㅋ 히로인만 전부 동굴트롤이었으면 액시 풀리고 진짜 트루 갓겜 궨트하러갔지\n\n딱 비유하자면 위쳐3 는 \"코카콜라 탈을 쓴 펩시\""
+            },
+            {
+              "review_id": 77417885,
+              "text": "늙었나 이제.... 다음 스토리는 보고싶은데 게임 진행은 지루한지 유튜브에서 스토리 찾아보고 싶게 되어서.......생각 날 때 까지 잠정 중단......"
+            }
+          ]
+        },
+        {
+          "title": "버그 및 기술적 문제",
+          "title_en": "Bugs and technical issues",
+          "description": "게임에서 버그가 많다는 불만이 있으며, 이로 인해 플레이 경험이 저해되고 있습니다. 특히, 조작감과 관련된 문제들이 지적되고 있습니다.",
+          "description_en": "There are complaints about numerous bugs in the game, which hinder the overall gameplay experience. Issues related to controls are particularly highlighted.",
+          "severity": "major",
+          "frequency": 3,
+          "representative_quotes": [
+            {
+              "review_id": 80651368,
+              "text": "하 ... 게임 존ㄴ 스트레스 받네 조작감도 ㅄ이고 시발 버그 생각보다 많아"
+            },
+            {
+              "review_id": 79770742,
+              "text": "타격감 구린거야 워낙 유명한 단점이라 다들 아실테고\n번역기 돌린 듯한 안하느니 못한 저퀄 한글화가 정말 아쉽습니다.. \n오역이 너무 많아서 스토리 몰입이 잘 안됩니다.\n게임은 잘 만들어 놓고... 아쉽습니다."
+            },
+            {
+              "review_id": 76528073,
+              "text": "스카이림과는 다른 재미가 있음 \n전투 시스템이 좆같긴 함\n생각보다 세팅이 여러개라 좀 놀랐음\n엔딩 3번 정도 보는데 플레이 타임이 별로 안들어감\n\n\n생각보다 재미없는 스토리와 서브 퀘스트\n후반에 개 좆같은 구간 빼면 재밌는 게임임\n"
+            }
+          ]
+        },
+        {
+          "title": "지루함 및 반복성",
+          "title_en": "Boredom and repetitiveness",
+          "description": "게임이 지루하다는 의견이 많으며, 특히 긴 스토리와 반복적인 퀘스트가 플레이어의 흥미를 떨어뜨린다는 지적이 있습니다.",
+          "description_en": "Many reviews express that the game is boring, particularly due to its lengthy story and repetitive quests that diminish player interest.",
+          "severity": "major",
+          "frequency": 5,
+          "representative_quotes": [
+            {
+              "review_id": 79346512,
+              "text": "지겹습니다. 지루합니다.\n최다 고티를 받고 사람들이 찬양을 하는 것치고 너무 재미가 없었습니다.\n오픈월드 좋아하고 판타지 좋아하지만\n위쳐3의 특유의 제약이 있는 듯한 전투방식과 마법은 저에게 굉장히 재미가 없었습니다.\n\n스카이림같은 게임은 자신의 캐릭터를 꾸며가며 내가 이 캐릭터구나. 라는 생각을 가지며\n몰입하며 플레이하게되지만 \n\n위쳐3는 그냥 게롤트라는 캐릭터를 플레이하는 게임이라 몰입이 안됩니다.\n무엇보다 너무 지루함.\n\n영화같은 게임을 원하시는 분들은 재밌게 하시겠지만\n스카이림이나 폴아웃같은 게임을 원하시는 분들은 구매하지 않으시는걸 추천드립니다."
+            },
+            {
+              "review_id": 77417885,
+              "text": "늙었나 이제.... 다음 스토리는 보고싶은데 게임 진행은 지루한지 유튜브에서 스토리 찾아보고 싶게 되어서.......생각 날 때 까지 잠정 중단......"
+            },
+            {
+              "review_id": 83758425,
+              "text": "과대평가 존나게 들어간 고티청년 게롤트3 ㅋㅋㅋ\n\n게임 겉만 봤을때는 AV표지급인데 이제 바지벗고 틀어보니 뗀석기시대 보는 아이러니한 느낌임\n\n이 씨21발 좃같은 게임하려고 위쳐1, 2 M2 뒤지게 재미없는거 꾸역꾸역 다 깨고나서 시작했는데\n\n갑툭튀 나온 시리 시432발련이 왜 튀어나오는지도 모르겠고 약공격 세례에 땅바닥에 딥키스하는 좃일트헌트인지 \n\n개좃만헌트인지 씹23새2끼들이 뭐가 무섭다고 존2나게 차원이동해가면서 도망치는건지 이해 졷나게 안되었고 \n\n괴물사냥꾼인지 색정증 말기환자인지 씨23발 시리를 찾을거면 찾고 말거면 말던가 개 졷같은 연극퀘라던지\n\n하품 뒤지게 나오는 구성 서브퀘 좃나게 넣어놓고 전투는 연금술 마법 물리 기타스킬 등으로 다 세분화 시켜놓고\n\n막상 싸워보면 빙글빙글 톡 빙글빙글 톡 보23지새끼처럼 싸우는거 보면서 입술사이로 새어나오는 하품 겨우참았다\n\n이럴거면 차라리 좃2도 시3발 오픈월드 같지도 않은 오픈월드 버리고 선형구조로 게임을 만들던지\n\n걸어다니는 병풍새1끼들한테 말걸면 허? 허응~? 꿍시렁꿍시렁 위쳐1 부터 다를거 없는 좃1병2신 다이얼로그\n\n빙글뱅글 톡 뱅글뱅글 톡 해서 뒤지는 잡몹새끼들 피직스 적용 안되어서 위로 통통 튀어다니는거나\n\n2층 높이에서 뛰어도 낙사판정되는 잼민이보다도 못한 체력에 그와중에 피직스 적용 안되어서\n\n일직선으로 누워 떨어지는거 보면 이딴게 15년도 최다고티라고? 라는 생각이 절로 든다\n\n게임이 엉성하니 하품나오고 흡입력이 떨어질수밖에 없음 나만 그렇게 느꼈냐?\n\n대화 선택지 자체도 그 전작보다 더 퇴화한 폴아웃4 보다도 못함 좃 의미없는 텔테일식 시간제한 선택지는\n\n대체 왜 만들어놓은거냐? 웃길라고 넣어놨나?\n\n나온지 5년이 넘어가면서 버그도 안고친게 수두룩빽빽1빽보2지다\n\n사후관리도 좃말아먹고 사이버펑크도 터뜨리고\n\n사이버펑크가 유작이 되길 바란다 CDPR \n\n결국 어쌔신크리드 동일선상 혹은 하위호환일뿐인 게임\n\n참 생각해보니 암살 이딴것도 안되는구나\n\n위쳐3 가 갓겜이라는 애들은 딱 그거임 남들이 갓겜이라니까 세뇌당한거고\n\n그거 아니면 저능아 ㅋㅋ 히로인만 전부 동굴트롤이었으면 액시 풀리고 진짜 트루 갓겜 궨트하러갔지\n\n딱 비유하자면 위쳐3 는 \"코카콜라 탈을 쓴 펩시\""
+            }
+          ]
+        },
+        {
+          "title": "한글화 품질 문제",
+          "title_en": "Quality issues with Korean localization",
+          "description": "한글화 품질이 낮아 스토리 이해에 어려움을 겪는다는 불만이 있습니다. 오역이 많아 몰입감을 저해하고 있습니다.",
+          "description_en": "There are complaints about the poor quality of Korean localization, making it difficult to understand the story. Numerous mistranslations hinder immersion.",
+          "severity": "minor",
+          "frequency": 2,
+          "representative_quotes": [
+            {
+              "review_id": 79770742,
+              "text": "타격감 구린거야 워낙 유명한 단점이라 다들 아실테고\n번역기 돌린 듯한 안하느니 못한 저퀄 한글화가 정말 아쉽습니다.. \n오역이 너무 많아서 스토리 몰입이 잘 안됩니다.\n게임은 잘 만들어 놓고... 아쉽습니다."
+            },
+            {
+              "review_id": 82813106,
+              "text": "저는 솔직히 재미없었습니다. 인터페이스가 전체적으로 저에게 많이 불편하다 느껴지고\n게임아이템 정리가 잘안되니 뭐가뭔지 모르겠네요.\n스토리또한 가끔 주인공이 전작이나 과거에 알던자와 대화하는거보면\n도통 이해가 안갑니다.\n전작배경을 일일히 알아보지않으면 무슨소리를 하는지..\n새로하는 유저에게  알아서 공부하고 오세요 라는 느낌밖에 안드네요..\n저는 게임을 하러왔지 공부를 하러온게 아니라서.. 별로였습니다.\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "topic": "긍정적인 게임 추천",
+      "topic_en": "Positive Game Recommendations",
+      "negative_review_count": 5,
+      "issues": []
+    },
+    {
+      "cluster_id": 8,
+      "topic": "게임의 걸작",
+      "topic_en": "Masterpiece of the game",
+      "negative_review_count": 30,
+      "issues": [
+        {
+          "title": "게임이 지루하고 복잡함",
+          "title_en": "Game is boring and complicated",
+          "description": "많은 리뷰에서 게임이 지루하다는 불만이 제기되었습니다. 특히 '너무 복잡하다'는 의견과 함께, 게임 진행이 지루하게 느껴진다는 점이 강조되었습니다.",
+          "description_en": "Many reviews express dissatisfaction with the game being boring. In particular, the opinion that it is 'too complicated' is highlighted, along with the feeling that the gameplay is tedious.",
+          "severity": "major",
+          "frequency": 7,
+          "representative_quotes": [
+            {
+              "review_id": 83568977,
+              "text": "too complicated"
+            },
+            {
+              "review_id": 84276456,
+              "text": "Horrible mechanics, boring af. Don't know how this thing ever won any rewards."
+            },
+            {
+              "review_id": 83345612,
+              "text": "boring"
+            }
+          ]
+        },
+        {
+          "title": "전투 메커니즘 문제",
+          "title_en": "Issues with combat mechanics",
+          "description": "전투가 불안정하다는 불만이 제기되었습니다. 'Janky combat'라는 표현이 사용되었으며, 이는 전투 시스템이 매끄럽지 않다는 것을 의미합니다.",
+          "description_en": "Complaints about the combat being janky have been raised. The term 'Janky combat' suggests that the combat system is not smooth.",
+          "severity": "major",
+          "frequency": 2,
+          "representative_quotes": [
+            {
+              "review_id": 84382036,
+              "text": "Janky combat"
+            },
+            {
+              "review_id": 84144847,
+              "text": "Chalk this one up as ruined by capitalism."
+            }
+          ]
+        },
+        {
+          "title": "게임이 너무 길고 지루함",
+          "title_en": "Game is too long and tedious",
+          "description": "게임이 너무 길고 지루하다는 의견이 많습니다. 특히 '50시간을 낭비했다'는 표현이 사용되며, 게임의 길이에 대한 불만이 강조됩니다.",
+          "description_en": "There are many opinions that the game is too long and tedious. The expression 'wasted 50 hours' is used, emphasizing dissatisfaction with the game's length.",
+          "severity": "major",
+          "frequency": 3,
+          "representative_quotes": [
+            {
+              "review_id": 83719876,
+              "text": "trash, an unfortunate waste of 50 hrs"
+            },
+            {
+              "review_id": 83532801,
+              "text": "feels like a chore, most hours spent modding"
+            },
+            {
+              "review_id": 84110743,
+              "text": "give me my money back I got the bad ending what a scam I just wanted to fuck both of them ;-;"
+            }
+          ]
+        },
+        {
+          "title": "스토리와 캐릭터에 대한 불만",
+          "title_en": "Dissatisfaction with story and characters",
+          "description": "스토리와 캐릭터에 대한 불만이 있습니다. '나쁜 결말을 얻었다'는 리뷰가 있으며, 이는 스토리에 대한 실망감을 나타냅니다.",
+          "description_en": "There is dissatisfaction with the story and characters. A review mentions 'got the bad ending,' indicating disappointment with the storyline.",
+          "severity": "minor",
+          "frequency": 2,
+          "representative_quotes": [
+            {
+              "review_id": 84110743,
+              "text": "give me my money back I got the bad ending what a scam I just wanted to fuck both of them ;-;"
+            },
+            {
+              "review_id": 84995804,
+              "text": "nudna i sztucznie przedłużana fabuła, nie polecam"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "topic": "훌륭한 게임",
+      "topic_en": "Awesome Game",
+      "negative_review_count": 2,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "issueUpdates": [
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 조작감 문제",
+        "description": "클러스터: 갓겜 추천 (God Game Recommendation)\n클러스터 부정 리뷰: 39건\n이 이슈 추정 빈도: 8건\n\n많은 사용자들이 조작감이 구리다고 언급하며, 게임 플레이에 큰 스트레스를 느끼고 있습니다. 특히, 조작이 느리고 답답하다는 의견이 많습니다. 이 문제는 다양한 플랫폼에서 발생하고 있습니다.\n\n--- English ---\nMany users have mentioned that the control feels bad, causing significant stress during gameplay. There are numerous comments about the controls being slow and frustrating. This issue appears to occur across various platforms.\n\n대표 인용:\n- \"-/10  진짜 패드 10년 가까이 잡았는데 이보다 조작감 최악인 겜은 못 본 것 같다. 사고나서 했다가 접었다가 4트째 하고있는데, 스토리고 뭐고 여전히 개 ㅈ같은 조작감때메 스트레스 존나받아서 못해먹겠음  레데리는 묵직함이 있고(조작감이 구리다고 표현하기는 힘듦), 다크소울이나 세키로는 즉각반응이 있는데 이건 이도저도 아닌데 줫나 굼뜨고 답답함. 군대 폐급 후임 보는거보다 더 답답해서 미치겠음 그냥  조작감 뿐만 아니라 폰트도 가독성 최악이고 위쳐센스 켜면 ㄹㅇ 하나도 안 보이는데 뭘 보라는건지 모르겠음. 3D멀미 진짜 1도 없\" (review #81485205)\n- \"ㅅㅂ 조작감 ㅈ같아서 못해먹겠네\" (review #83255411)\n- \"음.. 제가 다잉라이트 파쿠르 겜을 하다 넘어와서 그런지... 움직임이 너무 답답합니다ㅠㅠ 공격하는거나 점프하는거 등이 너무 어색하고 답답해서 플레이하는게 너무 답답.. 시선 넘어가는 것도 매끄럽게 넘어가지 않아서 그저 답답쓰.. 우리 주인공 목소리가 너무 매력적이라 플레이는 하겠지만.... 그저 아쉽네요ㅠㅠㅠㅠ 인물 생긴거는 정말 예쁘고 좋은데 ㅜㅠㅠ\" (review #76922177)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-0",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 게임의 재미 부족",
+        "description": "클러스터: 갓겜 추천 (God Game Recommendation)\n클러스터 부정 리뷰: 39건\n이 이슈 추정 빈도: 6건\n\n여러 리뷰어들이 게임이 지루하고 재미가 없다고 느끼고 있습니다. 특히, 스토리와 전투가 루즈하다는 의견이 많습니다.\n\n--- English ---\nSeveral reviewers feel that the game is boring and lacks fun. There are many comments about the story and combat being too slow-paced.\n\n대표 인용:\n- \"진짜 명작이라해서 계속 해보려고는 했는데 너무 재미가 없어요... 진행도 루즈하고 전투는 하품나오고 대사많은겜 싫어하는건 아니지만 이건 진짜 재미가 너어어어어어ㅓ어무 없네요\" (review #76791925)\n- \"저에게는 너무 지루해요 ㅜㅜ...\" (review #81411536)\n- \"나만 존나 재미없냐?\" (review #84340322)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-0",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 업데이트 문제",
+        "description": "클러스터: 갓겜 추천 (God Game Recommendation)\n클러스터 부정 리뷰: 39건\n이 이슈 추정 빈도: 1건\n\n업데이트 중에 데이터 이어서 플레이할 수 없다는 불만이 제기되었습니다. 이로 인해 사용자들이 게임을 진행할 수 없게 되는 상황이 발생했습니다.\n\n--- English ---\nComplaints have been raised about being unable to continue playing due to an update that prevents data continuation. This has led to situations where users cannot progress in the game.\n\n대표 인용:\n- \"플레이하려고 켯더니 업뎃중이라서 음 업뎃하나보다 했더니 뭔 업뎃을 했길래 데이터를 이어서 할수없다고 뜨는거지? 진짜 개빡친다 이제 시리 구할수있나 라고 생각했더니 훅 날아가버리네 진짜 너무 굉장해\" (review #75957603)",
+        "priority": {
+          "name": "Highest"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-0",
+          "severity-critical"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 비주얼 불만",
+        "description": "클러스터: 갓겜 추천 (God Game Recommendation)\n클러스터 부정 리뷰: 39건\n이 이슈 추정 빈도: 1건\n\n몬스터 비주얼이 역겹다는 의견이 있으며, 이로 인해 게임을 하기 싫다는 사용자들이 있습니다. 비주얼 개선이 필요하다는 요구가 있습니다.\n\n--- English ---\nThere are opinions that the monster visuals are disgusting, leading some users to not want to play the game. There is a demand for visual improvements.\n\n대표 인용:\n- \"몬스터비주얼이 너무 역겨워서 하기싫음 좀만 멋있게 만들어주지\" (review #74978651)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-0",
+          "severity-minor"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 전투 시스템의 문제",
+        "description": "클러스터: 스토리와 몰입감 (Story and Immersion)\n클러스터 부정 리뷰: 41건\n이 이슈 추정 빈도: 10건\n\n전투 시스템이 지루하고 재미없다는 불만이 많습니다. 특히, 반복적인 전투 메커니즘과 불편한 조작감이 문제로 지적되었습니다. 여러 리뷰에서 전투가 재미없고 단조롭다는 의견이 있었습니다.\n\n--- English ---\nMany complaints highlight that the combat system is boring and unfun. The repetitive combat mechanics and uncomfortable controls are frequently pointed out as issues. Several reviews mention that the combat lacks excitement and variety.\n\n대표 인용:\n- \"After 5 years of listening to nothing but praises for this game, i finally give this game a try and i was completely confuse. Everything surround the story is a complete mix bag. CDPR seems to have lock themselves in a dungoen with no access to the outside world because this game has a lot of outdat\" (review #84734247)\n- \"Very boring combat, dull mechanic, really dont get me into the game it self.. For a 2015 GOTY it's really way too far behind for example Skyrim in terms of being fun... You get to swing you sword mindlessly and ALT dodge for a god mode... Story is amazing tho\" (review #83790482)\n- \"IDK why people like this game, the combat and healing mechanics are dreadful and not fun in the slightest.\" (review #84986836)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-1",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 스토리의 반복성",
+        "description": "클러스터: 스토리와 몰입감 (Story and Immersion)\n클러스터 부정 리뷰: 41건\n이 이슈 추정 빈도: 6건\n\n주요 퀘스트가 반복적이라는 불만이 있습니다. 많은 리뷰어들이 스토리가 흥미롭지 않고, 같은 유형의 퀘스트를 반복하는 것에 지루함을 느꼈다고 언급했습니다.\n\n--- English ---\nThere are complaints about the repetitiveness of the main quests. Many reviewers felt that the story was uninteresting and that they were bored by repeating the same types of quests.\n\n대표 인용:\n- \"Did not enjoy this game. Main questline is too boring as it feels repetitive (In order to find someone, you have to find another, then find something for that someone and repeat). I did not enjoy the health mechanism and I would have liked a more customisable armor set where you can manually do stuf\" (review #84856893)\n- \"The game becomes uninteresting after a while because while well written you are essentially doing the same thing over and over again. The game play is simplistic in that you dodge, attack, and repeat. After repeating the same attacks for dozens of hours you get so good at it that the game becomes ex\" (review #84522059)\n- \"I've started this game twice, after the number of people who swear this game is a revelation, etc. The first 5 odd hours are all fetch quests, and NPCs that won't help you until you complete their fetch quest. I also found the control system to be clunky and unfortunate. Maybe it gets better after t\" (review #83393613)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-1",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 조작감과 UI 문제",
+        "description": "클러스터: 스토리와 몰입감 (Story and Immersion)\n클러스터 부정 리뷰: 41건\n이 이슈 추정 빈도: 5건\n\n조작감이 불편하고 UI가 직관적이지 않다는 불만이 있습니다. 특히 PC 포트에서 버튼 바인딩 문제와 같은 조작상의 어려움이 지적되었습니다.\n\n--- English ---\nThere are complaints about uncomfortable controls and a non-intuitive UI. Issues such as button binding problems in the PC port have been highlighted as significant difficulties.\n\n대표 인용:\n- \"Horrible PC port. Start the tutorial and have several abilities not bound to any buttons. When a company can't even auto bind abilities used within the first 5 minutes of a game.....just wow. Now if you can get beyond the fact that its a PC port and controls are clunky and there is no first person c\" (review #83342800)\n- \"4 hours in, I personally didn't like the game. Combat is annoying and gameplay is boring, maybe someone else would like it, regret buying the GOTY edition because now I have to play the game + DLC to get moneys worth. Glad it was 70% off though, I don't think this is an 60 dollar game.\" (review #84064588)\n- \"By most accounts there is a great game here. I just couldn't find it behind the horrible fighting mechanics. Most of my time was spent playing with the 4K texture mod and using it as a benchmark for my new GPU.\" (review #84715994)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-1",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 게임의 전반적인 지루함",
+        "description": "클러스터: 스토리와 몰입감 (Story and Immersion)\n클러스터 부정 리뷰: 41건\n이 이슈 추정 빈도: 4건\n\n게임이 전반적으로 지루하다는 의견이 많습니다. 많은 플레이어들이 게임을 계속 플레이하기 위한 동기를 찾지 못했다고 언급했습니다.\n\n--- English ---\nThere are many opinions stating that the game is overall boring. Many players mentioned that they struggled to find motivation to continue playing.\n\n대표 인용:\n- \"I just can't get into it, it's just so boring and not interesting, I genuinely don't get why this game is praised. Cdprojectred just makes wack games man.\" (review #84198006)\n- \"Isn't this the next level Oblivion crap? The reason I bought this game was because I had heard so much about the story and its narration, which after 24 hours of playing I still don't find it that appealing. I have forced myself so many times to come back to this game and finish it just for the sake\" (review #83371813)\n- \"A mixed review really, this game has elements from other games that I enjoy and some I do not. The story is very anime in theme but done nicely. I just couldn't get into this one. I even modded it to make the grind less, which I have only done to one other game previously, still couldn't get into it\" (review #83928862)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-1",
+          "severity-minor"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 버그와 기술적 문제",
+        "description": "클러스터: 스토리와 몰입감 (Story and Immersion)\n클러스터 부정 리뷰: 41건\n이 이슈 추정 빈도: 3건\n\n게임에서 여러 가지 버그와 기술적 문제가 발생한다는 불만이 있습니다. 특히 PC 버전에서의 성능 문제와 관련된 리뷰가 있었습니다.\n\n--- English ---\nThere are complaints about various bugs and technical issues in the game. Reviews specifically mention performance problems related to the PC version.\n\n대표 인용:\n- \"Riddled with bugs, no wonder cyberpunk came out the way it did, this game is over 5 years old now  Most over hyped shit right after Cyberpunk 2077. If this is the best game you have played I feel bad for you\" (review #83824219)\n- \"Nothing wrong with this game at all. It runs well. The story is well written and visuals are quality. Shame the company responsible for the game squandered any good will and trust they have accrued from their fans for some(very short term) profits. Take a good look at what capitol and markets will d\" (review #84662492)\n- \"I just really can't get into the controls and leveling of this game.  I have tried this game repeatably spaced out.  What I saw of the story it seemed good but not my type of game play.\" (review #84766083)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-1",
+          "severity-minor"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 게임이 RPG 요소 부족",
+        "description": "클러스터: 위쳐 3의 매력 (The Charm of Witcher 3)\n클러스터 부정 리뷰: 21건\n이 이슈 추정 빈도: 8건\n\n많은 리뷰어들이 이 게임이 전통적인 RPG 경험을 제공하지 않는다고 언급했습니다. 특히, 선택의 결과가 미미하다는 점이 지적되었습니다.\n\n--- English ---\nMany reviewers mentioned that the game does not provide a traditional RPG experience. Specifically, the lack of meaningful consequences for choices was highlighted.\n\n대표 인용:\n- \"The game was way too overhyped for what it actualy offered.  I was told that i whould get an awesome RPG expirience, where all my choices had consequences. What i was given was a mediocre melee focused game, where non of my choices in the early parts mattered. Neither the fact that i prefer to work \" (review #84618127)\n- \"Listen. I just played the whole trilogy from start to finish. I cannot recommend this game or any in the series to anyone. When a game has issues you fix them, you don't replace them with all new issues. CDPR spent too much time trying to find the mechanics they wanted to ever try improving on what \" (review #84877517)\n- \"[h1]Beware: Witcher 3 is a Visual Novel[/h1]  At the end of the Prologue there is an event [spoiler]you have no choice but to kill some pitiful bandits at the Inn[/spoiler] which opened my eyes to the fact that this is primarily a Visual Novel and only secondarily an RPG. As for the roleplaying part\" (review #83511045)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-3",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 지루한 게임플레이",
+        "description": "클러스터: 위쳐 3의 매력 (The Charm of Witcher 3)\n클러스터 부정 리뷰: 21건\n이 이슈 추정 빈도: 6건\n\n여러 리뷰어들이 게임이 지루하다고 느꼈으며, 전투와 탐험이 반복적이고 단조롭다고 언급했습니다. 특히, 전투 시스템이 재미없다는 의견이 많았습니다.\n\n--- English ---\nSeveral reviewers found the game boring, mentioning that combat and exploration felt repetitive and monotonous. There were many opinions stating that the combat system was not enjoyable.\n\n대표 인용:\n- \"Without a doubt the most boring trite I have ever played in my life. On a technical level it's a good game, it runs well, it's pretty and there is clearly a lot of love put into the game. However, the game itself is absolutely mind-numbing.   The gameplay is very similar to the 'Batman: Arkham' game\" (review #84146704)\n- \"I bought this game expecting an RPG experience in a Fantasy setting reminiscent of The Elder Scrolls, and that's about all I could handle. After an hour and a half, I was tired of the combat, had no reason to like Geralt, and generally found the NPCs to be completely inhospitable. There were few red\" (review #83612368)\n- \"Listen. I just played the whole trilogy from start to finish. I cannot recommend this game or any in the series to anyone. When a game has issues you fix them, you don't replace them with all new issues. CDPR spent too much time trying to find the mechanics they wanted to ever try improving on what \" (review #84877517)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-3",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 과도한 시간 소모",
+        "description": "클러스터: 위쳐 3의 매력 (The Charm of Witcher 3)\n클러스터 부정 리뷰: 21건\n이 이슈 추정 빈도: 5건\n\n리뷰어들은 게임이 불필요한 활동으로 시간을 낭비한다고 불만을 제기했습니다. 특히, 이동과 반복적인 퀘스트가 문제로 지적되었습니다.\n\n--- English ---\nReviewers complained that the game wastes time with unnecessary activities. In particular, traveling and repetitive quests were highlighted as issues.\n\n대표 인용:\n- \"While there is a lot of content, the game loves to waste your time by filling huge amounts of time with mindless/idle activities such as riding your horse from point A to point B or having to walk to a signpost to fast travel. There are also tons of filler quests that have no impact on the story at \" (review #85109753)\n- \"Probably won't be a popular opinion, and I'm not super far into it, but I can't recommend this. But if fetch quests that you can't complete until you complete three other nested fetch quests first, and then another one when you thought you were finally done, along with lots of following NPCs around \" (review #84096080)\n- \"The Witcher 3 does not respect my time. 7.8/10 dont recommend if you have literately anything else that requires major commitment...like a job and family if you want to get through this game in less than a couple months  As an Rpg in some aspects it is impressive but lacking in any meaningfulness de\" (review #84801279)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-3",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 과대평가된 게임",
+        "description": "클러스터: 위쳐 3의 매력 (The Charm of Witcher 3)\n클러스터 부정 리뷰: 21건\n이 이슈 추정 빈도: 4건\n\n많은 리뷰어들이 이 게임이 과대평가되었다고 느꼈으며, 기대에 미치지 못한다고 언급했습니다. 특히, 스토리와 캐릭터에 대한 기대가 컸습니다.\n\n--- English ---\nMany reviewers felt that the game was overhyped and did not meet their expectations. In particular, there were high hopes for the story and characters.\n\n대표 인용:\n- \"From the perspective of someone who has never played a Witcher game, and has only heard positive things about them (including something along the lines that you needn't play the first two games in order to understand what is happening) the Witcher III was an immeasurable disappointment. To say this \" (review #83569778)\n- \"I find The Witcher 3 to be a difficult game to judge.  On one hand it's an incredibly overrated game. The world of The Witcher 3 is shallow, it's all appearances which makes it end up feeling hollow with nothing really dynamic going on at all. The combat system feels floaty and janky. The RPG mechan\" (review #83697568)\n- \"Everything good in this game you can get off the Internet, namely the soundtrack, visuals, and assets (which I believe they let you use for modding in other games for free? Or just Witcher 2 assets). I tried refunding but because I sat on this game for months before trying it, they wouldn't let me r\" (review #84025532)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-3",
+          "severity-minor"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] NPC와의 상호작용 부족",
+        "description": "클러스터: 위쳐 3의 매력 (The Charm of Witcher 3)\n클러스터 부정 리뷰: 21건\n이 이슈 추정 빈도: 3건\n\n리뷰어들은 NPC들이 매력적이지 않다고 느꼈으며, 상호작용이 부족하다고 언급했습니다. 이는 게임의 몰입감을 저해하는 요소로 작용했습니다.\n\n--- English ---\nReviewers felt that NPCs were unappealing and that there was a lack of interaction. This contributed to a decrease in immersion in the game.\n\n대표 인용:\n- \"I bought this game expecting an RPG experience in a Fantasy setting reminiscent of The Elder Scrolls, and that's about all I could handle. After an hour and a half, I was tired of the combat, had no reason to like Geralt, and generally found the NPCs to be completely inhospitable. There were few red\" (review #83612368)\n- \"[h1]Beware: Witcher 3 is a Visual Novel[/h1]  At the end of the Prologue there is an event [spoiler]you have no choice but to kill some pitiful bandits at the Inn[/spoiler] which opened my eyes to the fact that this is primarily a Visual Novel and only secondarily an RPG. As for the roleplaying part\" (review #83511045)\n- \"Listen. I just played the whole trilogy from start to finish. I cannot recommend this game or any in the series to anyone. When a game has issues you fix them, you don't replace them with all new issues. CDPR spent too much time trying to find the mechanics they wanted to ever try improving on what \" (review #84877517)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-3",
+          "severity-minor"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 조작감 및 전투 시스템 불만",
+        "description": "클러스터: 위쳐3:와일드 헌트 평가 (The Witcher 3: Wild Hunt Review)\n클러스터 부정 리뷰: 42건\n이 이슈 추정 빈도: 8건\n\n여러 리뷰에서 조작감이 불편하고 전투 시스템이 재미없다는 불만이 제기되었습니다. 특히, 전투의 단조로움과 조작의 불편함이 몰입을 방해하고 있습니다.\n\n--- English ---\nMultiple reviews express dissatisfaction with the controls and combat system, highlighting issues with discomfort in controls and lack of enjoyment in combat. The monotony of combat and control difficulties hinder immersion.\n\n대표 인용:\n- \"하 ... 게임 존ㄴ 스트레스 받네 조작감도 ㅄ이고 시발 버그 생각보다 많아\" (review #80651368)\n- \"스토리와 게임성은 전설 그 자체, 의심의 여지가 없습니다.  다만, 제가 모든 게임에서 가장 중요하게 생각하는 부분은 조작감입니다.  그렇다보니 불편한 조작감으로 인해 몰입이 어려웠으며 검술의 단조로움, 한낱 경비병이 넘볼 수 없을 정도로 강한 점 등이(모드로 해결 가능합니다.) 이 게임을 오래 잡기 어렵게 만들었습니다.\" (review #75061490)\n- \"지겹습니다. 지루합니다. 최다 고티를 받고 사람들이 찬양을 하는 것치고 너무 재미가 없었습니다. 오픈월드 좋아하고 판타지 좋아하지만 위쳐3의 특유의 제약이 있는 듯한 전투방식과 마법은 저에게 굉장히 재미가 없었습니다.  스카이림같은 게임은 자신의 캐릭터를 꾸며가며 내가 이 캐릭터구나. 라는 생각을 가지며 몰입하며 플레이하게되지만   위쳐3는 그냥 게롤트라는 캐릭터를 플레이하는 게임이라 몰입이 안됩니다. 무엇보다 너무 지루함.  영화같은 게임을 원하시는 분들은 재밌게 하시겠지만 스카이림이나 폴아웃같은 게임을 원하시는 분들은 구매하지 \" (review #79346512)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-6",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 스토리 및 몰입감 부족",
+        "description": "클러스터: 위쳐3:와일드 헌트 평가 (The Witcher 3: Wild Hunt Review)\n클러스터 부정 리뷰: 42건\n이 이슈 추정 빈도: 6건\n\n게임의 스토리가 흥미롭지만, 몰입감이 떨어진다는 의견이 많습니다. 특히, 주인공의 배경을 이해하지 못하는 신규 유저들이 스토리에 어려움을 겪고 있습니다.\n\n--- English ---\nWhile the game's story is interesting, many reviews indicate a lack of immersion. New players often struggle to understand the story due to the protagonist's background.\n\n대표 인용:\n- \"저는 솔직히 재미없었습니다. 인터페이스가 전체적으로 저에게 많이 불편하다 느껴지고 게임아이템 정리가 잘안되니 뭐가뭔지 모르겠네요. 스토리또한 가끔 주인공이 전작이나 과거에 알던자와 대화하는거보면 도통 이해가 안갑니다. 전작배경을 일일히 알아보지않으면 무슨소리를 하는지.. 새로하는 유저에게  알아서 공부하고 오세요 라는 느낌밖에 안드네요.. 저는 게임을 하러왔지 공부를 하러온게 아니라서.. 별로였습니다.\" (review #82813106)\n- \"과대평가 존나게 들어간 고티청년 게롤트3 ㅋㅋㅋ  게임 겉만 봤을때는 AV표지급인데 이제 바지벗고 틀어보니 뗀석기시대 보는 아이러니한 느낌임  이 씨21발 좃같은 게임하려고 위쳐1, 2 M2 뒤지게 재미없는거 꾸역꾸역 다 깨고나서 시작했는데  갑툭튀 나온 시리 시432발련이 왜 튀어나오는지도 모르겠고 약공격 세례에 땅바닥에 딥키스하는 좃일트헌트인지   개좃만헌트인지 씹23새2끼들이 뭐가 무섭다고 존2나게 차원이동해가면서 도망치는건지 이해 졷나게 안되었고   괴물사냥꾼인지 색정증 말기환자인지 씨23발 시리를 찾을거면 찾고 말거면 말던\" (review #83758425)\n- \"늙었나 이제.... 다음 스토리는 보고싶은데 게임 진행은 지루한지 유튜브에서 스토리 찾아보고 싶게 되어서.......생각 날 때 까지 잠정 중단......\" (review #77417885)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-6",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 버그 및 기술적 문제",
+        "description": "클러스터: 위쳐3:와일드 헌트 평가 (The Witcher 3: Wild Hunt Review)\n클러스터 부정 리뷰: 42건\n이 이슈 추정 빈도: 3건\n\n게임에서 버그가 많다는 불만이 있으며, 이로 인해 플레이 경험이 저해되고 있습니다. 특히, 조작감과 관련된 문제들이 지적되고 있습니다.\n\n--- English ---\nThere are complaints about numerous bugs in the game, which hinder the overall gameplay experience. Issues related to controls are particularly highlighted.\n\n대표 인용:\n- \"하 ... 게임 존ㄴ 스트레스 받네 조작감도 ㅄ이고 시발 버그 생각보다 많아\" (review #80651368)\n- \"타격감 구린거야 워낙 유명한 단점이라 다들 아실테고 번역기 돌린 듯한 안하느니 못한 저퀄 한글화가 정말 아쉽습니다..  오역이 너무 많아서 스토리 몰입이 잘 안됩니다. 게임은 잘 만들어 놓고... 아쉽습니다.\" (review #79770742)\n- \"스카이림과는 다른 재미가 있음  전투 시스템이 좆같긴 함 생각보다 세팅이 여러개라 좀 놀랐음 엔딩 3번 정도 보는데 플레이 타임이 별로 안들어감   생각보다 재미없는 스토리와 서브 퀘스트 후반에 개 좆같은 구간 빼면 재밌는 게임임\" (review #76528073)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-6",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 지루함 및 반복성",
+        "description": "클러스터: 위쳐3:와일드 헌트 평가 (The Witcher 3: Wild Hunt Review)\n클러스터 부정 리뷰: 42건\n이 이슈 추정 빈도: 5건\n\n게임이 지루하다는 의견이 많으며, 특히 긴 스토리와 반복적인 퀘스트가 플레이어의 흥미를 떨어뜨린다는 지적이 있습니다.\n\n--- English ---\nMany reviews express that the game is boring, particularly due to its lengthy story and repetitive quests that diminish player interest.\n\n대표 인용:\n- \"지겹습니다. 지루합니다. 최다 고티를 받고 사람들이 찬양을 하는 것치고 너무 재미가 없었습니다. 오픈월드 좋아하고 판타지 좋아하지만 위쳐3의 특유의 제약이 있는 듯한 전투방식과 마법은 저에게 굉장히 재미가 없었습니다.  스카이림같은 게임은 자신의 캐릭터를 꾸며가며 내가 이 캐릭터구나. 라는 생각을 가지며 몰입하며 플레이하게되지만   위쳐3는 그냥 게롤트라는 캐릭터를 플레이하는 게임이라 몰입이 안됩니다. 무엇보다 너무 지루함.  영화같은 게임을 원하시는 분들은 재밌게 하시겠지만 스카이림이나 폴아웃같은 게임을 원하시는 분들은 구매하지 \" (review #79346512)\n- \"늙었나 이제.... 다음 스토리는 보고싶은데 게임 진행은 지루한지 유튜브에서 스토리 찾아보고 싶게 되어서.......생각 날 때 까지 잠정 중단......\" (review #77417885)\n- \"과대평가 존나게 들어간 고티청년 게롤트3 ㅋㅋㅋ  게임 겉만 봤을때는 AV표지급인데 이제 바지벗고 틀어보니 뗀석기시대 보는 아이러니한 느낌임  이 씨21발 좃같은 게임하려고 위쳐1, 2 M2 뒤지게 재미없는거 꾸역꾸역 다 깨고나서 시작했는데  갑툭튀 나온 시리 시432발련이 왜 튀어나오는지도 모르겠고 약공격 세례에 땅바닥에 딥키스하는 좃일트헌트인지   개좃만헌트인지 씹23새2끼들이 뭐가 무섭다고 존2나게 차원이동해가면서 도망치는건지 이해 졷나게 안되었고   괴물사냥꾼인지 색정증 말기환자인지 씨23발 시리를 찾을거면 찾고 말거면 말던\" (review #83758425)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-6",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 한글화 품질 문제",
+        "description": "클러스터: 위쳐3:와일드 헌트 평가 (The Witcher 3: Wild Hunt Review)\n클러스터 부정 리뷰: 42건\n이 이슈 추정 빈도: 2건\n\n한글화 품질이 낮아 스토리 이해에 어려움을 겪는다는 불만이 있습니다. 오역이 많아 몰입감을 저해하고 있습니다.\n\n--- English ---\nThere are complaints about the poor quality of Korean localization, making it difficult to understand the story. Numerous mistranslations hinder immersion.\n\n대표 인용:\n- \"타격감 구린거야 워낙 유명한 단점이라 다들 아실테고 번역기 돌린 듯한 안하느니 못한 저퀄 한글화가 정말 아쉽습니다..  오역이 너무 많아서 스토리 몰입이 잘 안됩니다. 게임은 잘 만들어 놓고... 아쉽습니다.\" (review #79770742)\n- \"저는 솔직히 재미없었습니다. 인터페이스가 전체적으로 저에게 많이 불편하다 느껴지고 게임아이템 정리가 잘안되니 뭐가뭔지 모르겠네요. 스토리또한 가끔 주인공이 전작이나 과거에 알던자와 대화하는거보면 도통 이해가 안갑니다. 전작배경을 일일히 알아보지않으면 무슨소리를 하는지.. 새로하는 유저에게  알아서 공부하고 오세요 라는 느낌밖에 안드네요.. 저는 게임을 하러왔지 공부를 하러온게 아니라서.. 별로였습니다.\" (review #82813106)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-6",
+          "severity-minor"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 게임이 지루하고 복잡함",
+        "description": "클러스터: 게임의 걸작 (Masterpiece of the game)\n클러스터 부정 리뷰: 30건\n이 이슈 추정 빈도: 7건\n\n많은 리뷰에서 게임이 지루하다는 불만이 제기되었습니다. 특히 '너무 복잡하다'는 의견과 함께, 게임 진행이 지루하게 느껴진다는 점이 강조되었습니다.\n\n--- English ---\nMany reviews express dissatisfaction with the game being boring. In particular, the opinion that it is 'too complicated' is highlighted, along with the feeling that the gameplay is tedious.\n\n대표 인용:\n- \"too complicated\" (review #83568977)\n- \"Horrible mechanics, boring af. Don't know how this thing ever won any rewards.\" (review #84276456)\n- \"boring\" (review #83345612)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-8",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 전투 메커니즘 문제",
+        "description": "클러스터: 게임의 걸작 (Masterpiece of the game)\n클러스터 부정 리뷰: 30건\n이 이슈 추정 빈도: 2건\n\n전투가 불안정하다는 불만이 제기되었습니다. 'Janky combat'라는 표현이 사용되었으며, 이는 전투 시스템이 매끄럽지 않다는 것을 의미합니다.\n\n--- English ---\nComplaints about the combat being janky have been raised. The term 'Janky combat' suggests that the combat system is not smooth.\n\n대표 인용:\n- \"Janky combat\" (review #84382036)\n- \"Chalk this one up as ruined by capitalism.\" (review #84144847)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-8",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 게임이 너무 길고 지루함",
+        "description": "클러스터: 게임의 걸작 (Masterpiece of the game)\n클러스터 부정 리뷰: 30건\n이 이슈 추정 빈도: 3건\n\n게임이 너무 길고 지루하다는 의견이 많습니다. 특히 '50시간을 낭비했다'는 표현이 사용되며, 게임의 길이에 대한 불만이 강조됩니다.\n\n--- English ---\nThere are many opinions that the game is too long and tedious. The expression 'wasted 50 hours' is used, emphasizing dissatisfaction with the game's length.\n\n대표 인용:\n- \"trash, an unfortunate waste of 50 hrs\" (review #83719876)\n- \"feels like a chore, most hours spent modding\" (review #83532801)\n- \"give me my money back I got the bad ending what a scam I just wanted to fuck both of them ;-;\" (review #84110743)",
+        "priority": {
+          "name": "High"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-8",
+          "severity-major"
+        ]
+      }
+    },
+    {
+      "fields": {
+        "project": {
+          "key": "GAME"
+        },
+        "issuetype": {
+          "name": "Bug"
+        },
+        "summary": "[CX/리뷰분석] 스토리와 캐릭터에 대한 불만",
+        "description": "클러스터: 게임의 걸작 (Masterpiece of the game)\n클러스터 부정 리뷰: 30건\n이 이슈 추정 빈도: 2건\n\n스토리와 캐릭터에 대한 불만이 있습니다. '나쁜 결말을 얻었다'는 리뷰가 있으며, 이는 스토리에 대한 실망감을 나타냅니다.\n\n--- English ---\nThere is dissatisfaction with the story and characters. A review mentions 'got the bad ending,' indicating disappointment with the storyline.\n\n대표 인용:\n- \"give me my money back I got the bad ending what a scam I just wanted to fuck both of them ;-;\" (review #84110743)\n- \"nudna i sztucznie przedłużana fabuła, nie polecam\" (review #84995804)",
+        "priority": {
+          "name": "Medium"
+        },
+        "labels": [
+          "cx-review",
+          "auto-extracted",
+          "cluster-8",
+          "severity-minor"
+        ]
+      }
+    }
+  ]
+}
